@@ -63,7 +63,7 @@
     .card h3{font-size:clamp(1.55rem,2.2vw,2rem);letter-spacing:-.018em;line-height:.98}.summary{margin:13px 0 20px;color:#9b927f;font-size:.72rem;line-height:1.7}.fields{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:auto}.field{border-top:1px solid #211b0d;padding-top:10px}.field .label{font-size:.55rem;letter-spacing:.13em;text-transform:uppercase;color:var(--dim);margin-bottom:3px}.field .value{font-size:.63rem;color:#c6bdad;line-height:1.45}.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:16px}.record-btn{display:inline-flex;align-items:center;justify-content:center;border:1px solid #463817;border-radius:2px;padding:8px 10px;font:600 .61rem "IBM Plex Mono",monospace;letter-spacing:.02em;text-decoration:none;cursor:pointer;transition:.16s}.record-btn:hover{background:#0a0a0a;border-color:var(--gold);color:var(--gold2);transform:translateY(-1px)}.record-btn.primary{background:var(--gold);border-color:var(--gold);color:#100e09}.record-btn.primary:hover{background:var(--gold2)}
     .empty{grid-column:1/-1;padding:70px;text-align:center;border:1px dashed var(--line);color:var(--muted);background:#030303}
     footer{border-top:1px solid var(--line);padding:22px 0 34px;color:var(--dim);font-size:.6rem}footer .wrap{display:flex;justify-content:space-between;gap:20px}.footer-mark{color:#8f825f}
-    .modal{position:fixed;inset:0;z-index:100;background:rgba(2,2,2,.86);backdrop-filter:blur(10px);display:none;padding:24px}.modal.open{display:flex;align-items:center;justify-content:center}.modal-panel{width:min(1220px,100%);height:min(92vh,1040px);background:#0b0a09;border:1px solid var(--gold);box-shadow:0 30px 100px rgba(0,0,0,.65);display:flex;flex-direction:column;overflow:hidden}.modal-head{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:13px 15px;border-bottom:1px solid var(--line);background:#0d0c0a}.modal-id{font-size:.56rem;letter-spacing:.15em;color:var(--gold);font-weight:600}.modal-title h2{font-size:1.35rem;margin-top:4px}.modal-tools{display:flex;gap:7px}.pdf-frame{flex:1;width:100%;border:0;background:#d4d0c6}.close{border:1px solid var(--line);background:transparent;min-height:36px;width:36px;cursor:pointer}.download{display:inline-flex;align-items:center;padding:0 10px;min-height:36px;background:var(--gold);color:#100e09;text-decoration:none;font-weight:600;font-size:.61rem}.modal-fallback{padding:11px 15px;background:#100f0c;border-top:1px solid var(--line);color:#776d5b;font-size:.6rem}.modal-fallback a{color:var(--gold2)}
+    .modal{position:fixed;inset:0;z-index:100;background:rgba(2,2,2,.86);backdrop-filter:blur(10px);display:none;padding:24px}.modal.open{display:flex;align-items:center;justify-content:center}.modal-panel{width:min(1220px,100%);height:min(92vh,1040px);background:#0b0a09;border:1px solid var(--gold);box-shadow:0 30px 100px rgba(0,0,0,.65);display:flex;flex-direction:column;overflow:hidden}.modal-head{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:13px 15px;border-bottom:1px solid var(--line);background:#0d0c0a}.modal-id{font-size:.56rem;letter-spacing:.15em;color:var(--gold);font-weight:600}.modal-title h2{font-size:1.35rem;margin-top:4px}.modal-tools{display:flex;gap:7px}.viewer-wrap{position:relative;flex:1;min-height:0;background:#d4d0c6;display:flex;align-items:center;justify-content:center}.pdf-frame,.image-frame{width:100%;height:100%;border:0;background:#d4d0c6}.image-frame{display:none;object-fit:contain;padding:18px}.close{border:1px solid var(--line);background:transparent;min-height:36px;width:36px;cursor:pointer}.download{display:inline-flex;align-items:center;padding:0 10px;min-height:36px;background:var(--gold);color:#100e09;text-decoration:none;font-weight:600;font-size:.61rem}.open-tab{display:inline-flex;align-items:center;padding:0 10px;min-height:36px;border:1px solid var(--line2);color:var(--gold2);text-decoration:none;font-weight:600;font-size:.61rem;background:#070706}.open-tab:hover{border-color:var(--gold);background:#0b0a07}.modal-fallback{padding:11px 15px;background:#100f0c;border-top:1px solid var(--line);color:#776d5b;font-size:.6rem}.modal-fallback a{color:var(--gold2)}
     .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
     .stat.highlight{border-color:var(--gold3);box-shadow:inset 0 0 0 1px rgba(212,175,55,.12),0 0 28px rgba(212,175,55,.04)}
     .citation-hero{margin:0 0 72px;border-top:1px solid var(--gold3);border-bottom:1px solid var(--line);background:linear-gradient(180deg,rgba(212,175,55,.045),rgba(0,0,0,.05));padding:34px 0 8px}
@@ -162,10 +162,19 @@
           <h2 class="section-title">Education Archive</h2>
           <p class="education-intro">Selected primary academic records and independent contemporary corroboration. This is intentionally not an exhaustive transcript: it documents the records that materially establish the educational trajectory without publishing every semester or internal academic record.</p>
         </div>
-        <div class="education-counter"><strong>9</strong><small>LOCAL EDUCATION DOCUMENTS</small></div>
+        <div class="education-counter"><strong>10</strong><small>LOCAL EDUCATION DOCUMENTS</small></div>
       </div>
       <div class="education-note"><strong>Public-record scope:</strong> the documents below are stored in the repository's <code>documents/</code> folder and linked by their exact filenames. Primary school, CBSE, competition and university records are distinguished from independent newspaper captures. The M.Sc. Mathematics record is labeled as an academic record / in-progress study record, not as a completed degree.</div>
       <div class="education-register">
+        <article class="education-card">
+          <span class="education-badge">EDU-012 · PRIMARY QUALIFICATION</span>
+          <div class="education-meta">National Institute of Technology Goa · B.Tech</div>
+          <h3>B.Tech Degree Certificate — Electronics &amp; Communication Engineering</h3>
+          <div class="education-summary">Degree certificate record for the completed B.Tech qualification from NIT Goa. This is the principal local documentary record for the undergraduate qualification.</div>
+          <div class="education-evidence"><strong>Document:</strong> NITG BTech.pdf</div>
+          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-012">▣ VIEW DEGREE</button></div>
+        </article>
+
         <article class="education-card">
           <span class="education-badge">EDU-003 · PRIMARY</span>
           <div class="education-meta">Class 9 · Indian School Al Ghubra</div>
@@ -703,10 +712,13 @@
     <div class="modal-panel">
       <div class="modal-head">
         <div class="modal-title"><div class="modal-id" id="modalId"></div><h2 id="modalTitle">Evidence document</h2></div>
-        <div class="modal-tools"><a class="download" id="modalOpen" href="#" target="_blank" rel="noopener noreferrer">↗ Open source</a><button class="close" id="modalClose" type="button">×</button></div>
+        <div class="modal-tools"><a class="open-tab" id="modalOpen" href="#" target="_blank" rel="noopener noreferrer">↗ Open</a><a class="download" id="modalDownload" href="#" download>↓ Download</a><button class="close" id="modalClose" type="button">×</button></div>
       </div>
-      <iframe class="pdf-frame" id="pdfFrame" title="Evidence preview"></iframe>
-      <div class="modal-fallback">This prototype currently has no local evidence PDFs attached. Use <a id="modalFallback" href="#" target="_blank" rel="noopener noreferrer">open the source record</a>.</div>
+      <div class="viewer-wrap">
+        <iframe class="pdf-frame" id="pdfFrame" title="Evidence PDF preview"></iframe>
+        <img class="image-frame" id="imageFrame" alt="Evidence image preview">
+      </div>
+      <div class="modal-fallback" id="modalFallback">Use Open to view the original repository file.</div>
     </div>
   </div>
 
@@ -803,6 +815,15 @@ const EVIDENCE = [
   {"id":"CIT-011","tier":"II","status":"verified","category":"Citations","title":"Development of Durable Highly Stretchable Electrothermal Conductive Fabrics Coated with Carbon-Based Fillers","claim":"Cites An Elegant Expression for π in Terms of Complex Logarithms as Reference [40].","source":"Journal of Industrial Textiles, Vol. 55","date":"August 11, 2025","sourceType":"SAGE journal article","url":"https://journals.sagepub.com/doi/10.1177/15280837251364519","note":"Cited as Reference [40]. The citation occurs within analytical and signal-processing discussion involving alternating-current (AC) systems. The citing authors use the complex-logarithm identity as part of the mathematical framework employed during electrothermal testing of conductive fabrics.","parent":"An Elegant Expression for π in Terms of Complex Logarithms","citingAuthors":"Azam Ali; Blanka Tomkova; Mohanapriya Venkataraman; Jiri Militky; Jakub Wiener","referenceNumber":"[40]","paperUrl":"https://www.researchgate.net/publication/392477499_An_Elegant_Expression_for_p_in_Terms_of_Complex_Logarithms","paperDoi":"https://doi.org/10.13140/RG.2.2.32262.28489","paperAuthors":"Pearl Bipin Pulickal","paperDate":"2025","paperBibliography":"40. Bipin, P. An elegant expression for π in terms of complex logarithms. ResearchGate, 2025."},
   {"id":"CIT-012","tier":"II","status":"verified","category":"Citations","title":"Advancing Solutions for Fractional Volterra-Fredholm Integro-Differential Equations: A Comprehensive Review of Recent Numerical Methods","claim":"Cites Hybrid Dynamical Systems: Unifying Memoryless Markov Chains with Memory-Based Integral Equations (Fredholm-Volterra Framework) as Reference [141].","source":"International Journal of Research and Innovation in Applied Science (IJRIAS), Volume XI Issue VI","date":"June 2026","sourceType":"Review article","url":"https://doi.org/10.51584/IJRIAS.2026.11060125","note":"Cited as Reference [141]. The 2026 review places the hybrid stochastic-deterministic framework within its broader literature map of numerical methods for fractional Volterra–Fredholm integro-differential equations, alongside other recent applied-mathematics approaches.","parent":"Hybrid Dynamical Systems: Unifying Memoryless Markov Chains with Memory-Based Integral Equations (Fredholm-Volterra Framework)","citingAuthors":"Ali Karim Lelo Alobaidi.","referenceNumber":"[141]","paperUrl":"https://www.researchgate.net/publication/395536805_Hybrid_Dynamical_Systems_Unifying_Memoryless_Markov_Chains_with_Memory-Based_Integral_Equations_Fredholm-Volterra_Framework","paperDoi":"","paperAuthors":"Pearl Bipin Pulickal","paperDate":"2025","paperBibliography":"Alobaidi, A. K. L. (2026). Cites Pulickal’s Hybrid Dynamical Systems as Reference [141]."},
 
+  {id:"EDU-012", tier:"I", status:"verified", category:"Education",
+    title:"NIT Goa — B.Tech Degree Certificate",
+    claim:"Local documentary record of Pearl Bipin Pulickal's completed B.Tech qualification from National Institute of Technology Goa in Electronics and Communication Engineering.",
+    source:"National Institute of Technology Goa",
+    date:"2024",
+    sourceType:"Degree certificate",
+    url:"documents/NITG%20BTech.pdf",
+    file:"documents/NITG%20BTech.pdf",
+    note:"Primary qualification document. The site treats this as the documentary record of the completed undergraduate degree; the separate official NIT Goa convocation records provide institutional corroboration."},
   {id:"EDU-003", tier:"I", status:"verified", category:"Education",
     title:"Indian School Al Ghubra — Class IX Academic Performance",
     claim:"School academic record showing Mathematics at A1 / grade point 10, a cumulative grade-point average of 9.4, and promotion to Class X.",
@@ -999,15 +1020,45 @@ function openRecord(id){
   modalId.textContent=e.id+" · TIER "+e.tier+" · "+e.status.toUpperCase();
   modalTitle.textContent=e.title;
   const target=e.file||e.url;
-  modalOpen.href=target;
-  modalFallback.href=target;
-  modalFallback.innerHTML=e.file
-    ? "Local repository document. <a id=\"modalFallbackLink\" href=\""+e.file+"\" target=\"_blank\" rel=\"noopener noreferrer\">open in a new tab</a>."
-    : "External source record. <a id=\"modalFallbackLink\" href=\""+e.url+"\" target=\"_blank\" rel=\"noopener noreferrer\">open the source</a>.";
-  $("#pdfFrame").src=target;
+  const safeTarget=encodeURI(target);
+  const ext=(target.split('?')[0].split('#')[0].split('.').pop()||'').toLowerCase();
+  const isImage=/^(png|jpe?g|webp|gif|svg)$/.test(ext);
+  const isLocal=!!e.file;
+  modalOpen.href=safeTarget;
+  const download=document.getElementById('modalDownload');
+  if(isLocal){
+    download.href=safeTarget;
+    download.setAttribute('download',target.split('/').pop());
+    download.style.display='inline-flex';
+  }else{
+    download.removeAttribute('href');
+    download.removeAttribute('download');
+    download.style.display='none';
+  }
+  const pdfFrame=document.getElementById('pdfFrame');
+  const imageFrame=document.getElementById('imageFrame');
+  const fallback=document.getElementById('modalFallback');
+  if(isImage){
+    pdfFrame.style.display='none';
+    pdfFrame.src='about:blank';
+    imageFrame.style.display='block';
+    imageFrame.src=safeTarget;
+    imageFrame.alt=e.title;
+    fallback.innerHTML=isLocal
+      ? 'Image loaded from the repository. Use <a href="'+safeTarget+'" target="_blank" rel="noopener noreferrer">Open</a> or the Download button for the original file.'
+      : 'External image source. Use <a href="'+safeTarget+'" target="_blank" rel="noopener noreferrer">Open source</a>.';
+  }else{
+    imageFrame.style.display='none';
+    imageFrame.removeAttribute('src');
+    pdfFrame.style.display='block';
+    pdfFrame.src=safeTarget;
+    fallback.innerHTML=isLocal
+      ? 'PDF loaded from the repository. Use <a href="'+safeTarget+'" target="_blank" rel="noopener noreferrer">Open in a new tab</a> or the Download button.'
+      : 'External source record. Use <a href="'+safeTarget+'" target="_blank" rel="noopener noreferrer">Open source</a>.';
+  }
   modal.classList.add("open"); modal.setAttribute("aria-hidden","false");
 }
-function closeModal(){modal.classList.remove("open");modal.setAttribute("aria-hidden","true");$("#pdfFrame").src="about:blank";}
+function closeModal(){modal.classList.remove("open");modal.setAttribute("aria-hidden","true");document.getElementById('pdfFrame').src='about:blank';document.getElementById('imageFrame').removeAttribute('src');document.getElementById('imageFrame').style.display='none';document.getElementById('pdfFrame').style.display='block';}
 function seedCategory(){[...new Set(EVIDENCE.map(e=>e.category))].sort().forEach(c=>{category.insertAdjacentHTML("beforeend",`<option>${c}</option>`)});}
 function updateStats(){
   $("#statTotal").textContent=EVIDENCE.length;
