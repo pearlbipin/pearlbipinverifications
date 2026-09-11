@@ -1,16 +1,17 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Pearl Bipin Verification — Evidence Ledger</title>
-  <meta name="description" content="Pearl Bipin Verification is a living evidence ledger of publicly verifiable records, institutional references, citations, recommendations, and related documentary evidence.">
-  <meta name="author" content="Pearl Bipin Pulickal">
-  <meta property="og:title" content="Pearl Bipin Verification">
-  <meta property="og:description" content="Evidence ledger for publicly verifiable records concerning Pearl Bipin Pulickal.">
-  <meta property="og:type" content="website">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23000'/%3E%3Ctext x='50' y='63' text-anchor='middle' font-size='52' fill='%23d4af37'%3EP%3C/text%3E%3C/svg%3E">
-  <style>
+<!DOCTYPE html>
+
+<!-- saved from url=(0043)https://pearlbipinverifications.vercel.app/ -->
+<html lang="en"><head><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Pearl Bipin Verification — Evidence Ledger</title>
+<meta content="Pearl Bipin Verification is a living evidence ledger of publicly verifiable records, institutional references, citations, recommendations, and related documentary evidence." name="description"/>
+<meta content="Pearl Bipin Pulickal" name="author"/>
+<meta content="Pearl Bipin Verification" property="og:title"/>
+<meta content="Evidence ledger for publicly verifiable records concerning Pearl Bipin Pulickal." property="og:description"/>
+<meta content="website" property="og:type"/>
+<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23000'/%3E%3Ctext x='50' y='63' text-anchor='middle' font-size='52' fill='%23d4af37'%3EP%3C/text%3E%3C/svg%3E" rel="icon"/>
+<style>
     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
     :root{
       --bg:#000;--panel:#070706;--panel2:#0d0c0a;--ink:#f5f5f2;--muted:#a6a39b;--dim:#706d66;
@@ -105,641 +106,741 @@
   </style>
 </head>
 <body>
-  <div class="topbar">
-    <div class="wrap topbar-inner">
-      <div class="topbar-left"><span class="status-dot"></span><span class="status-text">LEDGER ONLINE</span><span class="divider">/</span><span>PUBLIC EVIDENCE INDEX</span></div>
-      <div class="topbar-right"><span>LAST BUILD</span><span class="divider">/</span><span id="clock">--:--:--</span></div>
-    </div>
-  </div>
+<div class="topbar">
+<div class="wrap topbar-inner">
+<div class="topbar-left"><span class="status-dot"></span><span class="status-text">LEDGER ONLINE</span><span class="divider">/</span><span>PUBLIC EVIDENCE INDEX</span></div>
+<div class="topbar-right"><span>LAST BUILD</span><span class="divider">/</span><span id="clock">--:--:--</span></div>
+</div>
+</div>
+<header id="top">
+<div class="wrap hero">
+<div>
+<div class="eyebrow">PEARL BIPIN PULICKAL</div>
+<h1>Pearl Bipin Verification</h1>
+<div class="hero-rule"></div>
+<p class="tagline">Evidence · Records · Citations · References</p>
+<p class="intro">A living evidence ledger for publicly verifiable records concerning Pearl Bipin Pulickal. This prototype deliberately separates primary institutional evidence, independent external evidence, and contextual references.</p>
+<p class="note">Research papers and preprints are not reproduced here; citation evidence is. Each citation entry points directly to the citing work or its DOI, with no intermediary citation-list PDF required. Documentary records are preserved below as local PDFs and images alongside source links.</p>
+</div>
+<aside aria-label="Active evidence display" class="active">
+<div class="display-head"><span>ACTIVE EVIDENCE</span><span>LEDGER / LIVE</span></div>
+<div class="display-main">
+<div class="display-label" id="displayLabel">NOW REVIEWING</div>
+<div class="display-title"><span id="displayTitle">Ledger initializing</span><span class="cursor"></span></div>
+<div class="display-meta" id="displayMeta"><span class="meta-label">SYSTEM</span>Loading evidence record…</div>
+<div class="display-actions">
+<button class="action primary" id="displaySource">↗ OPEN SOURCE</button>
+<a class="action" href="https://pearlbipinverifications.vercel.app/#ledger" id="displayRecord">VIEW LEDGER</a>
+</div>
+<div class="display-bar"><span class="active"></span><span class="active"></span><span class="active"></span><span></span><span></span><span></span><span></span></div>
+</div>
+<div class="display-foot"><span id="displayFoot">ROTATION / READY</span><span id="displayId">—</span></div>
+</aside>
+</div>
+</header>
+<nav aria-label="Evidence navigation">
+<div class="wrap nav-inner">
+<span class="nav-label">LEDGER MODULES</span>
+<div class="nav-links">
+<a class="nav-link" href="#documents">EDUCATION</a><a class="nav-link" href="https://pearlbipinverifications.vercel.app/#documents">DOCUMENTS</a><a class="nav-link" href="https://pearlbipinverifications.vercel.app/#citations">CITATIONS</a><a class="nav-link" href="https://pearlbipinverifications.vercel.app/#media">MEDIA</a><a class="nav-link" href="https://pearlbipinverifications.vercel.app/#ledger">LEDGER</a>
+<button class="nav-link" id="latestBtn" type="button">LATEST</button>
+<button class="nav-link" id="tierBtn" type="button">TIER I</button>
+<button class="nav-link" id="resetBtn" type="button">RESET</button>
+</div>
+</div>
+</nav>
+<section aria-label="Quick access to major archives" class="quick-access wrap">
+<a class="quick-card" href="https://pearlbipinverifications.vercel.app/#citations"><span class="quick-kicker">01 · SCHOLARLY UPTAKE</span><strong>12 Independent Citations</strong><span>Directly linked citing works, with context and DOI/source access.</span><b>VIEW CITATION REGISTER ↘</b></a>
+<a class="quick-card" href="https://pearlbipinverifications.vercel.app/#media"><span class="quick-kicker">02 · PUBLIC RECEPTION</span><strong>15 Media / Reception Records</strong><span>Direct coverage, discussion, distribution traces and archival records.</span><b>VIEW MEDIA ARCHIVE ↘</b></a>
+</section>
+<main class="wrap">
+<section class="document-hero" id="documents">
+<div class="document-head">
+<div>
+<div class="eyebrow">DOCUMENTARY RECORDS</div>
+<h2 class="section-title">Document Archive</h2>
+<p class="document-intro">Twenty documentary records preserved together in the repository’s <code>documents/</code> folder, including academic records, certificates, internships, recommendations, institutional records, media and citation archives, and related documentary evidence.</p>
+</div>
+<div class="document-counter"><strong>20</strong><small>LOCAL DOCUMENT RECORDS TOTAL</small></div>
+</div>
+<div class="document-note"><strong>Archive scope:</strong> all 20 records below are linked directly to their exact repository filenames. Nothing is split into a separate education archive; the full documentary set is presented here as one document archive.</div>
+<div class="document-register" id="documentRegister">
+<article class="document-card">
+<span class="document-badge">EDU-012 · PRIMARY QUALIFICATION</span>
+<div class="document-meta">National Institute of Technology Goa · B.Tech</div>
+<h3>B.Tech Degree Certificate — Electronics &amp; Communication Engineering</h3>
+<div class="document-summary">Degree certificate record for the completed B.Tech qualification from NIT Goa. This is the principal local documentary record for the undergraduate qualification.</div>
+<div class="document-evidence"><strong>Document:</strong> NITG BTech.pdf</div>
+<div class="document-actions"><button class="record-btn primary document-preview" data-preview="EDU-012" type="button">▣ VIEW</button><a class="record-btn" download="NITG BTech.pdf" href="https://pearlbipinverifications.vercel.app/documents/NITG%20BTech.pdf">↓ DOWNLOAD</a></div>
+</article>
+<article class="document-card">
+<span class="document-badge">EDU-003 · PRIMARY</span>
+<div class="document-meta">Class 9 · Indian School Al Ghubra</div>
+<h3>Academic Performance — Class IX</h3>
+<div class="document-summary">School academic record showing Mathematics at A1 / grade point 10, with a cumulative grade-point average of 9.4 and promotion to Class X.</div>
+<div class="document-evidence"><strong>Document:</strong> Class 9.pdf</div>
+<div class="document-actions"><button class="record-btn primary document-preview" data-preview="EDU-003" type="button">▣ VIEW</button><a class="record-btn" download="Class 9.pdf" href="https://pearlbipinverifications.vercel.app/documents/Class%209.pdf">↓ DOWNLOAD</a></div>
+</article>
+<article class="document-card">
+<span class="document-badge">EDU-004 · PRIMARY</span>
+<div class="document-meta">CBSE · Class X · 2018</div>
+<h3>Mathematics — 100/100</h3>
+<div class="document-summary">CBSE All India Secondary School Examination marks statement recording 100/100 in Mathematics and 99/100 in Science, with a pass result.</div>
+<div class="document-evidence"><strong>Document:</strong> Class 10.pdf</div>
+<div class="document-actions"><button class="record-btn primary document-preview" data-preview="EDU-004" type="button">▣ VIEW</button><a class="record-btn" download="Class 10.pdf" href="https://pearlbipinverifications.vercel.app/documents/Class%2010.pdf">↓ DOWNLOAD</a></div>
+</article>
+<article class="document-card">
+<span class="document-badge">EDU-005 · PRIMARY DISTINCTION</span>
+<div class="document-meta">CBSE · Class X · 2018</div>
+<h3>Certificate of Merit — Mathematics</h3>
+<div class="document-summary">CBSE merit certificate recognizing outstanding academic performance and placement among the top 0.1% of successful candidates in Mathematics.</div>
+<div class="document-evidence"><strong>Document:</strong> Class 10 MC.pdf</div>
+<div class="document-actions"><button class="record-btn primary document-preview" data-preview="EDU-005" type="button">▣ VIEW</button><a class="record-btn" download="Class 10 MC.pdf" href="https://pearlbipinverifications.vercel.app/documents/Class%2010%20MC.pdf">↓ DOWNLOAD</a></div>
+</article>
+<article class="document-card">
+<span class="document-badge">EDU-006 · EXTERNAL CORROBORATION</span>
+<div class="document-meta">Times of Oman · 2018</div>
+<h3>Contemporary Press Record — Perfect Mathematics Score</h3>
+<div class="document-summary">A contemporary report on Indian School Ghubra's Class X results states that Pearl Bipin Pulickal posted a perfect score in Mathematics.</div>
+<div class="document-evidence"><strong>Capture:</strong> Class 10 ISG News.PNG</div>
+<div class="document-actions"><button class="record-btn primary document-preview" data-preview="EDU-006" type="button">▣ VIEW</button><a class="record-btn" download="Class 10 ISG News.PNG" href="https://pearlbipinverifications.vercel.app/documents/Class%2010%20ISG%20News.PNG">↓ DOWNLOAD</a></div>
+</article>
+<article class="document-card">
+<span class="document-badge">EDU-007 · EXTERNAL CORROBORATION</span>
+<div class="document-meta">Muscat Daily · 30 May 2018</div>
+<h3>Contemporary Press Record — 100 in Mathematics</h3>
+<div class="document-summary">Muscat Daily's Class X examination coverage states that Pearl Bipin Pulickal and another student scored 100 in Mathematics at Indian School Ghubra.</div>
+<div class="document-evidence"><strong>Capture:</strong> Class 10 ISG MSDLY.PNG</div>
+<div class="document-actions"><button class="record-btn primary document-preview" data-preview="EDU-007" type="button">▣ VIEW</button><a class="record-btn" download="Class 10 ISG MSDLY.PNG" href="https://pearlbipinverifications.vercel.app/documents/Class%2010%20ISG%20MSDLY.PNG">↓ DOWNLOAD</a></div>
+</article>
+<article class="document-card">
+<span class="document-badge">EDU-008 · PRIMARY</span>
+<div class="document-meta">Class XI · 2018–2019</div>
+<h3>Consolidated Statement of Marks — Mathematics</h3>
+<div class="document-summary">Indian School Al Ghubra consolidated record showing 95.20% in Mathematics and promotion to Class XII; the annual Mathematics theory mark is 97/100.</div>
+<div class="document-evidence"><strong>Document:</strong> Class 11.pdf</div>
+<div class="document-actions"><button class="record-btn primary document-preview" data-preview="EDU-008" type="button">▣ VIEW</button><a class="record-btn" download="Class 11.pdf" href="https://pearlbipinverifications.vercel.app/documents/Class%2011.pdf">↓ DOWNLOAD</a></div>
+</article>
+<article class="document-card">
+<span class="document-badge">EDU-009 · PRIMARY</span>
+<div class="document-meta">CBSE · Senior School Certificate Examination · 2020</div>
+<h3>Class XII Marks Statement</h3>
+<div class="document-summary">CBSE Senior School Certificate Examination record showing 95 in Mathematics, Physics, Chemistry and Computer Science, with a pass result.</div>
+<div class="document-evidence"><strong>Document:</strong> Class 12.pdf</div>
+<div class="document-actions"><button class="record-btn primary document-preview" data-preview="EDU-009" type="button">▣ VIEW</button><a class="record-btn" download="Class 12.pdf" href="https://pearlbipinverifications.vercel.app/documents/Class%2012.pdf">↓ DOWNLOAD</a></div>
+</article>
+<article class="document-card">
+<span class="document-badge">EDU-010 · MATHEMATICS COMPETITION</span>
+<div class="document-meta">Modern College of Business &amp; Science · 20 March 2019</div>
+<h3>Math League — 1st Place</h3>
+<div class="document-summary">Certificate of Achievement from the Department of Mathematics and Computer Science stating that Pearl Bipin Pulickal won 1st place in the first edition of the Math League.</div>
+<div class="document-evidence"><strong>Document:</strong> Class 12 MCBS.pdf</div>
+<div class="document-actions"><button class="record-btn primary document-preview" data-preview="EDU-010" type="button">▣ VIEW</button><a class="record-btn" download="Class 12 MCBS.pdf" href="https://pearlbipinverifications.vercel.app/documents/Class%2012%20MCBS.pdf">↓ DOWNLOAD</a></div>
+</article>
+<article class="document-card">
+<span class="document-badge">EDU-011 · CURRENT / IN PROGRESS</span>
+<div class="document-meta">Chandigarh University · M.Sc. Mathematics</div>
+<h3>Postgraduate Mathematics Academic Record</h3>
+<div class="document-summary">University record screenshot showing CGPA 8.33 across the displayed first three semesters, with coursework including Real Analysis, Linear Algebra, Complex Analysis, Functional Analysis, Topology, Number Theory and Numerical Analysis.</div>
+<div class="document-evidence"><strong>Record:</strong> CU MSc.PNG · This is an academic record, not a completion certificate.</div>
+<div class="document-actions"><button class="record-btn primary document-preview" data-preview="EDU-011" type="button">▣ VIEW</button><a class="record-btn" download="CU MSc.PNG" href="https://pearlbipinverifications.vercel.app/documents/CU%20MSc.PNG">↓ DOWNLOAD</a></div>
+</article>
+<article class="document-card">
+<span class="document-badge">DOC-013 · EMPLOYMENT / INTERNSHIP</span>
+<div class="document-meta">CSIR–National Institute of Oceanography, Goa · 2023-08-04</div>
+<h3>CSIR-NIO — Internship Completion Certificate</h3>
+<div class="document-summary">Certificate issued by CSIR–National Institute of Oceanography, Dona Paula, confirming that Pearl Bipin, a National Institute of Technology Goa student, completed the internship titled ‘Sound Scape and Fish Biodiversity in Coral Reefs using Bioacoustics’ under Dr. Prakash Mehra from 1 June 2023 to 31 July 2023.</div>
+<div class="document-evidence"><strong>Document:</strong> NITGCSIR-NIO.pdf</div>
+<div class="document-actions">
+<button class="record-btn primary document-preview" data-preview="DOC-013" type="button">▣ VIEW</button>
+<a class="record-btn" download="NITGCSIR-NIO.pdf" href="documents/NITGCSIR-NIO.pdf">↓ DOWNLOAD</a>
+<a class="record-btn" href="documents/NITGCSIR-NIO.pdf" rel="noopener noreferrer" target="_blank">↗ OPEN</a>
+</div>
+</article>
+<article class="document-card">
+<span class="document-badge">DOC-014 · EMPLOYMENT / INTERNSHIP</span>
+<div class="document-meta">Jio Platforms Limited · 2022-08-03</div>
+<h3>Jio Platforms Limited — Internship Completion Letter</h3>
+<div class="document-summary">Company letter confirming that Pearl Bipin completed an internship at Jio Platforms Limited from 7 June 2022 to 1 August 2022 and completed the project ‘Smarthome Analytics’ under Dixit Nahar.</div>
+<div class="document-evidence"><strong>Document:</strong> NITGJio.pdf</div>
+<div class="document-actions">
+<button class="record-btn primary document-preview" data-preview="DOC-014" type="button">▣ VIEW</button>
+<a class="record-btn" download="NITGJio.pdf" href="documents/NITGJio.pdf">↓ DOWNLOAD</a>
+<a class="record-btn" href="documents/NITGJio.pdf" rel="noopener noreferrer" target="_blank">↗ OPEN</a>
+</div>
+</article>
+<article class="document-card">
+<span class="document-badge">DOC-015 · EDUCATION</span>
+<div class="document-meta">National Institute of Technology Goa · 2024-05-28 to 2024-05-30</div>
+<h3>NIT Goa — Semester Grade Reports I–III</h3>
+<div class="document-summary">Three NIT Goa semester grade reports documenting undergraduate academic performance in B.Tech Electronics and Communication Engineering: Semester I SGPA 8.91 / CGPA 8.91, Semester II SGPA 8.29 / CGPA 8.60, and Semester III SGPA 8.77 / CGPA 8.66, with Mathematics-I and Mathematics-III graded A and Mathematics-II graded C.</div>
+<div class="document-evidence"><strong>Document:</strong> NITGMath.pdf</div>
+<div class="document-actions">
+<button class="record-btn primary document-preview" data-preview="DOC-015" type="button">▣ VIEW</button>
+<a class="record-btn" download="NITGMath.pdf" href="documents/NITGMath.pdf">↓ DOWNLOAD</a>
+<a class="record-btn" href="documents/NITGMath.pdf" rel="noopener noreferrer" target="_blank">↗ OPEN</a>
+</div>
+</article>
+<article class="document-card">
+<span class="document-badge">DOC-016 · MEDIA ARCHIVE</span>
+<div class="document-meta">Pearl Bipin Pulickal — author-maintained archival dossier · 2026-06</div>
+<h3>2026 Global Media Coverage — Archival Dossier</h3>
+<div class="document-summary">Author-maintained June 2026 dossier cataloguing the Resurrection research media cycle, including a seven-outlet primary media register, article summaries, URLs, and discussion of public reception.</div>
+<div class="document-evidence"><strong>Document:</strong> News_Articles_2026.pdf</div>
+<div class="document-actions">
+<button class="record-btn primary document-preview" data-preview="DOC-016" type="button">▣ VIEW</button>
+<a class="record-btn" download="News_Articles_2026.pdf" href="documents/News_Articles_2026.pdf">↓ DOWNLOAD</a>
+<a class="record-btn" href="documents/News_Articles_2026.pdf" rel="noopener noreferrer" target="_blank">↗ OPEN</a>
+</div>
+</article>
+<article class="document-card">
+<span class="document-badge">DOC-017 · RECOMMENDATIONS</span>
+<div class="document-meta">LinkedIn recommendations export · 2024–2026</div>
+<h3>LinkedIn Recommendations — External Testimonial Archive</h3>
+<div class="document-summary">Seventeen-page LinkedIn recommendations export containing professional, academic, client, supervisor and colleague testimonials concerning Pearl Bipin’s work in mathematics, data science, machine learning, engineering, research, teaching, internships and related projects.</div>
+<div class="document-evidence"><strong>Document:</strong> LinkedinRecs.pdf</div>
+<div class="document-actions">
+<button class="record-btn primary document-preview" data-preview="DOC-017" type="button">▣ VIEW</button>
+<a class="record-btn" download="LinkedinRecs.pdf" href="documents/LinkedinRecs.pdf">↓ DOWNLOAD</a>
+<a class="record-btn" href="documents/LinkedinRecs.pdf" rel="noopener noreferrer" target="_blank">↗ OPEN</a>
+</div>
+</article>
+<article class="document-card">
+<span class="document-badge">DOC-018 · CITATIONS</span>
+<div class="document-meta">Pearl Bipin Pulickal — citation record · 2024–2026</div>
+<h3>12-Citation Record — Consolidated Citation Archive</h3>
+<div class="document-summary">Consolidated citation record listing twelve external works that cite named Pearl Bipin preprints, including reference numbers, citing venues, dates, citation contexts, and source/DOI information.</div>
+<div class="document-evidence"><strong>Document:</strong> 12_Citations_Record.pdf</div>
+<div class="document-actions">
+<button class="record-btn primary document-preview" data-preview="DOC-018" type="button">▣ VIEW</button>
+<a class="record-btn" download="12_Citations_Record.pdf" href="documents/12_Citations_Record.pdf">↓ DOWNLOAD</a>
+<a class="record-btn" href="documents/12_Citations_Record.pdf" rel="noopener noreferrer" target="_blank">↗ OPEN</a>
+</div>
+</article>
+<article class="document-card">
+<span class="document-badge">DOC-019 · PROFESSIONAL MEMBERSHIP</span>
+<div class="document-meta">The Indian Mathematical Society · 2026-02-20</div>
+<h3>Indian Mathematical Society — Life Membership Certificate</h3>
+<div class="document-summary">Certificate from The Indian Mathematical Society stating that Pearl Bipin Pulickal is a Life Member since February 2026, with membership number L/2026/031.</div>
+<div class="document-evidence"><strong>Document:</strong> IMSCert.pdf</div>
+<div class="document-actions">
+<button class="record-btn primary document-preview" data-preview="DOC-019" type="button">▣ VIEW</button>
+<a class="record-btn" download="IMSCert.pdf" href="documents/IMSCert.pdf">↓ DOWNLOAD</a>
+<a class="record-btn" href="documents/IMSCert.pdf" rel="noopener noreferrer" target="_blank">↗ OPEN</a>
+</div>
+</article>
+<article class="document-card">
+<span class="document-badge">DOC-020 · INSTITUTIONAL RECORDS</span>
+<div class="document-meta">Indian School Al Ghubra; Embassy of India, Muscat; National Institute of Technology Goa · 2020–2023</div>
+<h3>Indian School Al Ghubra + NIT Goa — Conduct, Transfer and Internship Records</h3>
+<div class="document-summary">Five-page documentary bundle containing an Indian School Al Ghubra conduct certificate and transfer certificate, Embassy of India Muscat attestation, an NIT Goa request for the 2023 NIO internship, and an NIT Goa certification/no-objection record for that internship.</div>
+<div class="document-evidence"><strong>Document:</strong> ISG%20NITG%20Conduct%20Certificates.pdf</div>
+<div class="document-actions">
+<button class="record-btn primary document-preview" data-preview="DOC-020" type="button">▣ VIEW</button>
+<a class="record-btn" download="ISG%20NITG%20Conduct%20Certificates.pdf" href="documents/ISG%20NITG%20Conduct%20Certificates.pdf">↓ DOWNLOAD</a>
+<a class="record-btn" href="documents/ISG%20NITG%20Conduct%20Certificates.pdf" rel="noopener noreferrer" target="_blank">↗ OPEN</a>
+</div>
+</article>
+<article class="document-card">
+<span class="document-badge">DOC-021 · INSTITUTIONAL ENGAGEMENT</span>
+<div class="document-meta">Symbiosis Institute of Geoinformatics, Symbiosis International (Deemed University) · 2024</div>
+<h3>Symbiosis Institute of Geoinformatics — Webinar Invitation</h3>
+<div class="document-summary">Institutional invitation identifying Er. Pearl Bipin as the speaker for a talk titled ‘Key Skills and Competencies in Demand for Data Science Professionals’, identifying him as Chief Data Scientist at Pearl Data Consultancy Services and scheduling the session for Friday, 21 June at 7:00 PM.</div>
+<div class="document-evidence"><strong>Document:</strong> NITGBTech%20symb.pdf</div>
+<div class="document-actions">
+<button class="record-btn primary document-preview" data-preview="DOC-021" type="button">▣ VIEW</button>
+<a class="record-btn" download="NITGBTech%20symb.pdf" href="documents/NITGBTech%20symb.pdf">↓ DOWNLOAD</a>
+<a class="record-btn" href="documents/NITGBTech%20symb.pdf" rel="noopener noreferrer" target="_blank">↗ OPEN</a>
+</div>
+</article>
+<article class="document-card">
+<span class="document-badge">DOC-022 · INSTITUTIONAL ENGAGEMENT</span>
+<div class="document-meta">Symbiosis Institute of Geoinformatics, Symbiosis International (Deemed University) · 2024</div>
+<h3>Symbiosis Institute of Geoinformatics — Webinar Certificate of Appreciation</h3>
+<div class="document-summary">Certificate from the Symbiosis Institute of Geoinformatics, Wisdomwave Webinar Series 2024, thanking Er. Pearl Bipin, Chief Data Scientist at Pearl Data Consultancy Services, for conducting the webinar ‘Key skills and competencies in demand for data science professionals’ for M.Sc. Data Science and Spatial Analytics students.</div>
+<div class="document-evidence"><strong>Document:</strong> NITGBTech%20symc.pdf</div>
+<div class="document-actions">
+<button class="record-btn primary document-preview" data-preview="DOC-022" type="button">▣ VIEW</button>
+<a class="record-btn" download="NITGBTech%20symc.pdf" href="documents/NITGBTech%20symc.pdf">↓ DOWNLOAD</a>
+<a class="record-btn" href="documents/NITGBTech%20symc.pdf" rel="noopener noreferrer" target="_blank">↗ OPEN</a>
+</div>
+</article>
+</div>
+</section>
 
-  <header id="top">
-    <div class="wrap hero">
-      <div>
-        <div class="eyebrow">PEARL BIPIN PULICKAL</div>
-        <h1>Pearl Bipin Verification</h1>
-        <div class="hero-rule"></div>
-        <p class="tagline">Evidence · Records · Citations · References</p>
-        <p class="intro">A living evidence ledger for publicly verifiable records concerning Pearl Bipin Pulickal. This prototype deliberately separates primary institutional evidence, independent external evidence, and contextual references.</p>
-        <p class="note">Research papers and preprints are not reproduced here; citation evidence is. Each citation entry points directly to the citing work or its DOI, with no intermediary citation-list PDF required. Documentary evidence is preserved below as local PDFs and images alongside source links.</p>
-      </div>
-
-      <aside class="active" aria-label="Active evidence display">
-        <div class="display-head"><span>ACTIVE EVIDENCE</span><span>LEDGER / LIVE</span></div>
-        <div class="display-main">
-          <div class="display-label" id="displayLabel">NOW REVIEWING</div>
-          <div class="display-title"><span id="displayTitle">Ledger initializing</span><span class="cursor"></span></div>
-          <div class="display-meta" id="displayMeta"><span class="meta-label">SYSTEM</span>Loading evidence record…</div>
-          <div class="display-actions">
-            <button class="action primary" id="displaySource">↗ OPEN SOURCE</button>
-            <a class="action" id="displayRecord" href="#ledger">VIEW LEDGER</a>
-          </div>
-          <div class="display-bar"><span class="active"></span><span class="active"></span><span class="active"></span><span></span><span></span><span></span><span></span></div>
-        </div>
-        <div class="display-foot"><span id="displayFoot">ROTATION / READY</span><span id="displayId">—</span></div>
-      </aside>
-    </div>
-  </header>
-
-  <nav aria-label="Evidence navigation">
-    <div class="wrap nav-inner">
-      <span class="nav-label">LEDGER MODULES</span>
-      <div class="nav-links">
-        <a class="nav-link" href="#education">EDUCATION</a><a class="nav-link" href="#documents">DOCUMENTS</a><a class="nav-link" href="#citations">CITATIONS</a><a class="nav-link" href="#media">MEDIA</a><a class="nav-link" href="#ledger">LEDGER</a>
-        <button class="nav-link" id="latestBtn" type="button">LATEST</button>
-        <button class="nav-link" id="tierBtn" type="button">TIER I</button>
-        <button class="nav-link" id="resetBtn" type="button">RESET</button>
-      </div>
-    </div>
-  </nav>
-
-  <section class="quick-access wrap" aria-label="Quick access to major archives">
-    <a class="quick-card" href="#citations"><span class="quick-kicker">01 · SCHOLARLY UPTAKE</span><strong>12 Independent Citations</strong><span>Directly linked citing works, with context and DOI/source access.</span><b>VIEW CITATION REGISTER ↘</b></a>
-    <a class="quick-card" href="#media"><span class="quick-kicker">02 · PUBLIC RECEPTION</span><strong>15 Media / Reception Records</strong><span>Direct coverage, discussion, distribution traces and archival records.</span><b>VIEW MEDIA ARCHIVE ↘</b></a>
-  </section>
-
-  <main class="wrap">
-
-    <section class="education-hero" id="education">
-      <div class="education-head">
-        <div>
-          <div class="eyebrow">SELECTED EDUCATION RECORD</div>
-          <h2 class="section-title">Education Archive</h2>
-          <p class="education-intro">Selected primary academic records and independent contemporary corroboration. This is intentionally not an exhaustive transcript: it documents the records that materially establish the educational trajectory without publishing every semester or internal academic record.</p>
-        </div>
-        <div class="education-counter"><strong>10</strong><small>LOCAL EDUCATION DOCUMENTS</small></div>
-      </div>
-      <div class="education-note"><strong>Public-record scope:</strong> the documents below are stored in the repository's <code>documents/</code> folder and linked by their exact filenames. Primary school, CBSE, competition and university records are distinguished from independent newspaper captures. The M.Sc. Mathematics record is labeled as an academic record / in-progress study record, not as a completed degree.</div>
-      <div class="education-register">
-        <article class="education-card">
-          <span class="education-badge">EDU-012 · PRIMARY QUALIFICATION</span>
-          <div class="education-meta">National Institute of Technology Goa · B.Tech</div>
-          <h3>B.Tech Degree Certificate — Electronics &amp; Communication Engineering</h3>
-          <div class="education-summary">Degree certificate record for the completed B.Tech qualification from NIT Goa. This is the principal local documentary record for the undergraduate qualification.</div>
-          <div class="education-evidence"><strong>Document:</strong> NITG BTech.pdf</div>
-          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-012">▣ VIEW</button><a class="record-btn education-download" href="documents/NITG%20BTech.pdf" download="NITG BTech.pdf">↓ DOWNLOAD</a></div>
-        </article>
-
-        <article class="education-card">
-          <span class="education-badge">EDU-003 · PRIMARY</span>
-          <div class="education-meta">Class 9 · Indian School Al Ghubra</div>
-          <h3>Academic Performance — Class IX</h3>
-          <div class="education-summary">School academic record showing Mathematics at A1 / grade point 10, with a cumulative grade-point average of 9.4 and promotion to Class X.</div>
-          <div class="education-evidence"><strong>Document:</strong> Class 9.pdf</div>
-          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-003">▣ VIEW</button><a class="record-btn education-download" href="documents/Class%209.pdf" download="Class 9.pdf">↓ DOWNLOAD</a></div>
-        </article>
-
-        <article class="education-card">
-          <span class="education-badge">EDU-004 · PRIMARY</span>
-          <div class="education-meta">CBSE · Class X · 2018</div>
-          <h3>Mathematics — 100/100</h3>
-          <div class="education-summary">CBSE All India Secondary School Examination marks statement recording 100/100 in Mathematics and 99/100 in Science, with a pass result.</div>
-          <div class="education-evidence"><strong>Document:</strong> Class 10.pdf</div>
-          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-004">▣ VIEW</button><a class="record-btn education-download" href="documents/Class%2010.pdf" download="Class 10.pdf">↓ DOWNLOAD</a></div>
-        </article>
-
-        <article class="education-card">
-          <span class="education-badge">EDU-005 · PRIMARY DISTINCTION</span>
-          <div class="education-meta">CBSE · Class X · 2018</div>
-          <h3>Certificate of Merit — Mathematics</h3>
-          <div class="education-summary">CBSE merit certificate recognizing outstanding academic performance and placement among the top 0.1% of successful candidates in Mathematics.</div>
-          <div class="education-evidence"><strong>Document:</strong> Class 10 MC.pdf</div>
-          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-005">▣ VIEW</button><a class="record-btn education-download" href="documents/Class%2010%20MC.pdf" download="Class 10 MC.pdf">↓ DOWNLOAD</a></div>
-        </article>
-
-        <article class="education-card">
-          <span class="education-badge">EDU-006 · EXTERNAL CORROBORATION</span>
-          <div class="education-meta">Times of Oman · 2018</div>
-          <h3>Contemporary Press Record — Perfect Mathematics Score</h3>
-          <div class="education-summary">A contemporary report on Indian School Ghubra's Class X results states that Pearl Bipin Pulickal posted a perfect score in Mathematics.</div>
-          <div class="education-evidence"><strong>Capture:</strong> Class 10 ISG News.PNG</div>
-          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-006">▣ VIEW</button><a class="record-btn education-download" href="documents/Class%2010%20ISG%20News.PNG" download="Class 10 ISG News.PNG">↓ DOWNLOAD</a></div>
-        </article>
-
-        <article class="education-card">
-          <span class="education-badge">EDU-007 · EXTERNAL CORROBORATION</span>
-          <div class="education-meta">Muscat Daily · 30 May 2018</div>
-          <h3>Contemporary Press Record — 100 in Mathematics</h3>
-          <div class="education-summary">Muscat Daily's Class X examination coverage states that Pearl Bipin Pulickal and another student scored 100 in Mathematics at Indian School Ghubra.</div>
-          <div class="education-evidence"><strong>Capture:</strong> Class 10 ISG MSDLY.PNG</div>
-          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-007">▣ VIEW</button><a class="record-btn education-download" href="documents/Class%2010%20ISG%20MSDLY.PNG" download="Class 10 ISG MSDLY.PNG">↓ DOWNLOAD</a></div>
-        </article>
-
-        <article class="education-card">
-          <span class="education-badge">EDU-008 · PRIMARY</span>
-          <div class="education-meta">Class XI · 2018–2019</div>
-          <h3>Consolidated Statement of Marks — Mathematics</h3>
-          <div class="education-summary">Indian School Al Ghubra consolidated record showing 95.20% in Mathematics and promotion to Class XII; the annual Mathematics theory mark is 97/100.</div>
-          <div class="education-evidence"><strong>Document:</strong> Class 11.pdf</div>
-          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-008">▣ VIEW</button><a class="record-btn education-download" href="documents/Class%2011.pdf" download="Class 11.pdf">↓ DOWNLOAD</a></div>
-        </article>
-
-        <article class="education-card">
-          <span class="education-badge">EDU-009 · PRIMARY</span>
-          <div class="education-meta">CBSE · Senior School Certificate Examination · 2020</div>
-          <h3>Class XII Marks Statement</h3>
-          <div class="education-summary">CBSE Senior School Certificate Examination record showing 95 in Mathematics, Physics, Chemistry and Computer Science, with a pass result.</div>
-          <div class="education-evidence"><strong>Document:</strong> Class 12.pdf</div>
-          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-009">▣ VIEW</button><a class="record-btn education-download" href="documents/Class%2012.pdf" download="Class 12.pdf">↓ DOWNLOAD</a></div>
-        </article>
-
-        <article class="education-card">
-          <span class="education-badge">EDU-010 · MATHEMATICS COMPETITION</span>
-          <div class="education-meta">Modern College of Business &amp; Science · 20 March 2019</div>
-          <h3>Math League — 1st Place</h3>
-          <div class="education-summary">Certificate of Achievement from the Department of Mathematics and Computer Science stating that Pearl Bipin Pulickal won 1st place in the first edition of the Math League.</div>
-          <div class="education-evidence"><strong>Document:</strong> Class 12 MCBS.pdf</div>
-          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-010">▣ VIEW</button><a class="record-btn education-download" href="documents/Class%2012%20MCBS.pdf" download="Class 12 MCBS.pdf">↓ DOWNLOAD</a></div>
-        </article>
-
-        <article class="education-card">
-          <span class="education-badge">EDU-011 · CURRENT / IN PROGRESS</span>
-          <div class="education-meta">Chandigarh University · M.Sc. Mathematics</div>
-          <h3>Postgraduate Mathematics Academic Record</h3>
-          <div class="education-summary">University record screenshot showing CGPA 8.33 across the displayed first three semesters, with coursework including Real Analysis, Linear Algebra, Complex Analysis, Functional Analysis, Topology, Number Theory and Numerical Analysis.</div>
-          <div class="education-evidence"><strong>Record:</strong> CU MSc.PNG · This is an academic record, not a completion certificate.</div>
-          <div class="education-actions"><button class="record-btn primary education-preview" type="button" data-preview="EDU-011">▣ VIEW</button><a class="record-btn education-download" href="documents/CU%20MSc.PNG" download="CU MSc.PNG">↓ DOWNLOAD</a></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="document-hero" id="documents">
-      <div class="document-head">
-        <div>
-          <div class="eyebrow">ADDITIONAL DOCUMENTARY RECORDS</div>
-          <h2 class="section-title">Document Archive</h2>
-          <p class="document-intro">Ten additional documentary records from the current batch, preserved alongside the existing ten education documents. These records cover internships, undergraduate academic evidence, professional recommendations, mathematical-community membership, institutional speaking engagements, media/citation archives, and school or institutional records.</p>
-        </div>
-        <div class="document-counter"><strong>20</strong><small>LOCAL DOCUMENT RECORDS TOTAL</small></div>
-      </div>
-      <div class="document-note"><strong>Archive scope:</strong> the ten records below are mixed-source documentary evidence and are linked by their exact repository filenames. Existing education records remain above; this section adds the new batch without replacing or collapsing the earlier records.</div>
-      <div id="documentRegister" class="document-register"></div>
-    </section>
-
-    <section class="controls-wrap">
-      <div class="controls">
-        <div class="controls-top">
-          <label class="input-shell">
-            <span>/</span><span class="sr-only">Search evidence</span>
-            <input id="search" type="search" placeholder="Search claim, source, category, ID…" autocomplete="off">
-          </label>
-          <select id="tier"><option value="">All tiers</option><option value="I">Tier I — primary</option><option value="II">Tier II — independent</option><option value="III">Tier III — contextual</option></select>
-          <select id="status"><option value="">All statuses</option><option value="verified">Verified</option><option value="supported">Supported</option><option value="context">Contextual</option><option value="correction">Correction</option></select>
-          <select id="category"><option value="">All categories</option></select>
-          <button class="nav-link clear" id="clearBtn" type="button">CLEAR</button>
-        </div>
-        <div class="control-status">
-          <span><strong id="count">0</strong> records visible · <span id="filterLabel">all evidence</span></span>
-          <span>Search / <code>/</code> or <code>Ctrl</code> + <code>K</code></span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="ledger">
-      <div class="stats">
-        <div class="stat highlight"><div class="k">Independent citations</div><div class="v" id="statCitations">12</div><div class="s">Directly linked citing works</div></div>
-        <div class="stat highlight"><div class="k">Media records</div><div class="v" id="statMedia">0</div><div class="s">Direct coverage + reception</div></div>
-        <div class="stat"><div class="k">Total records</div><div class="v" id="statTotal">0</div><div class="s">Current prototype ledger</div></div>
-        <div class="stat"><div class="k">Tier I</div><div class="v" id="statTier1">0</div><div class="s">Primary / institutional</div></div>
-      </div>
-
-      <section class="citation-hero" id="citations">
-        <div class="citation-head">
-          <div>
-            <div class="eyebrow">PRIMARY PUBLIC RECORD</div>
-            <h2 class="section-title">Citation Register</h2>
-            <p class="citation-intro">12 citation records, each showing the reference number used by the citing work, the exact citing document, what it uses Pearl Bipin’s work for, and a direct link to both sides of the citation: the citing work and the cited Pearl Bipin record.</p>
-          <div class="citation-tools" aria-label="Citation register controls">
-            <input id="citationSearch" type="search" placeholder="Search citation, author, venue, reference number…" autocomplete="off">
-            <select id="citationPaperFilter"><option value="">All cited papers</option></select>
-            <span class="citation-tool-count"><strong id="citationVisible">12</strong> / 12 visible</span>
-          </div>
-          </div>
-          <div class="citation-counter"><span>12</span><small>CITATION RECORDS</small><em>6 cited papers</em></div>
-        </div>
-        <div id="citationRegister" class="citation-register" aria-hidden="true"></div>
-        <div class="citation-static-grid"><article class="citation-static-card" data-paper="Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base" data-search="nanotechnology meets quantum computing: advancing quantum bits (qubits) and devices for next generation computing talha nadeem, tariq rafique, sedra moulay brahim, et al. nanotechnology perceptions cited as reference [50]. the paper places the ternary-logic work within its discussion and statistical analysis using anova and f-statistics, where the cited work forms part of the literature base around nanotechnology and quantum-computing perceptions. ternary logic gates: advancing computing with -1, 0, 1 base [50]">
-  <div class="citation-static-no">001</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [50]</span><span class="citation-kind">Journal article</span></div>
-    <div class="citation-static-source">Nanotechnology Perceptions · December 1, 2024</div>
-    <h3>Nanotechnology Meets Quantum Computing: Advancing Quantum Bits (Qubits) and Devices for Next Generation Computing</h3>
-    <div class="citation-static-authors">Talha Nadeem, Tariq Rafique, Sedra Moulay Brahim, et al.</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [50]. The paper places the ternary-logic work within its discussion and statistical analysis using ANOVA and F-statistics, where the cited work forms part of the literature base around nanotechnology and quantum-computing perceptions.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base</div>
-      <div class="citation-paper-meta">Yash Diniz; Pearl Bipin Pulickal; Trilochan Panigrahi · June 2024</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/381311830_Ternary_Logic_Gates_Advancing_Computing_with_-1_0_1_Base" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.21765.77281" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Pulickal, P. B., Diniz, Y. J., &amp; Panigrahi, T. (2024). Ternary Logic Gates: Advancing Computing with −1, 0, 1 Base.</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://doi.org/10.62441/nano-ntp.vi.3463" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="Pulickal, P. B., Diniz, Y. J., &amp; Panigrahi, T. (2024). Ternary Logic Gates: Advancing Computing with −1, 0, 1 Base.">COPY REF</button>
-  </div>
+<section class="controls-wrap">
+<div class="controls">
+<div class="controls-top">
+<label class="input-shell">
+<span>/</span><span class="sr-only">Search evidence</span>
+<input autocomplete="off" id="search" placeholder="Search claim, source, category, ID…" type="search"/>
+</label>
+<select id="tier"><option value="">All tiers</option><option value="I">Tier I — primary</option><option value="II">Tier II — independent</option><option value="III">Tier III — contextual</option></select>
+<select id="status"><option value="">All statuses</option><option value="verified">Verified</option><option value="supported">Supported</option><option value="context">Contextual</option><option value="correction">Correction</option></select>
+<select id="category"><option value="">All categories</option><option>Citations</option><option>Corrections</option><option>Education</option><option>Employment / Internship</option><option>Institutional Engagement</option><option>Institutional Records</option><option>Media Archive</option><option>Professional Membership</option><option>Public References</option><option>Recommendation</option><option>Recommendations</option></select>
+<button class="nav-link clear" id="clearBtn" type="button">CLEAR</button>
+</div>
+<div class="control-status">
+<span><strong id="count">2</strong> records visible · <span id="filterLabel">filtered evidence</span></span>
+<span>Search / <code>/</code> or <code>Ctrl</code> + <code>K</code></span>
+</div>
+</div>
+</section>
+<section class="section" id="ledger">
+<div class="stats">
+<div class="stat highlight"><div class="k">Independent citations</div><div class="v" id="statCitations">12</div><div class="s">Directly linked citing works</div></div>
+<div class="stat highlight"><div class="k">Media records</div><div class="v" id="statMedia">0</div><div class="s">Direct coverage + reception</div></div>
+<div class="stat"><div class="k">Total records</div><div class="v" id="statTotal">40</div><div class="s">Current prototype ledger</div></div>
+<div class="stat"><div class="k">Tier I</div><div class="v" id="statTier1">17</div><div class="s">Primary / institutional</div></div>
+</div>
+<section class="citation-hero" id="citations">
+<div class="citation-head">
+<div>
+<div class="eyebrow">PRIMARY PUBLIC RECORD</div>
+<h2 class="section-title">Citation Register</h2>
+<p class="citation-intro">12 citation records, each showing the reference number used by the citing work, the exact citing document, what it uses Pearl Bipin’s work for, and a direct link to both sides of the citation: the citing work and the cited Pearl Bipin record.</p>
+<div aria-label="Citation register controls" class="citation-tools">
+<input autocomplete="off" id="citationSearch" placeholder="Search citation, author, venue, reference number…" type="search"/>
+<select id="citationPaperFilter"><option value="">All cited papers</option></select>
+<span class="citation-tool-count"><strong id="citationVisible">12</strong> / 12 visible</span>
+</div>
+</div>
+<div class="citation-counter"><span>12</span><small>CITATION RECORDS</small><em>6 cited papers</em></div>
+</div>
+<div aria-hidden="true" class="citation-register" id="citationRegister"></div>
+<div class="citation-static-grid"><article class="citation-static-card" data-paper="Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base" data-search="nanotechnology meets quantum computing: advancing quantum bits (qubits) and devices for next generation computing talha nadeem, tariq rafique, sedra moulay brahim, et al. nanotechnology perceptions cited as reference [50]. the paper places the ternary-logic work within its discussion and statistical analysis using anova and f-statistics, where the cited work forms part of the literature base around nanotechnology and quantum-computing perceptions. ternary logic gates: advancing computing with -1, 0, 1 base [50]">
+<div class="citation-static-no">001</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [50]</span><span class="citation-kind">Journal article</span></div>
+<div class="citation-static-source">Nanotechnology Perceptions · December 1, 2024</div>
+<h3>Nanotechnology Meets Quantum Computing: Advancing Quantum Bits (Qubits) and Devices for Next Generation Computing</h3>
+<div class="citation-static-authors">Talha Nadeem, Tariq Rafique, Sedra Moulay Brahim, et al.</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [50]. The paper places the ternary-logic work within its discussion and statistical analysis using ANOVA and F-statistics, where the cited work forms part of the literature base around nanotechnology and quantum-computing perceptions.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base</div>
+<div class="citation-paper-meta">Yash Diniz; Pearl Bipin Pulickal; Trilochan Panigrahi · June 2024</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/381311830_Ternary_Logic_Gates_Advancing_Computing_with_-1_0_1_Base" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.21765.77281" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Pulickal, P. B., Diniz, Y. J., &amp; Panigrahi, T. (2024). Ternary Logic Gates: Advancing Computing with −1, 0, 1 Base.</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://doi.org/10.62441/nano-ntp.vi.3463" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="Pulickal, P. B., Diniz, Y. J., &amp; Panigrahi, T. (2024). Ternary Logic Gates: Advancing Computing with −1, 0, 1 Base." type="button">COPY REF</button>
+</div>
 </article><article class="citation-static-card" data-paper="Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base" data-search="memristor emulator-based ternary logic gates for ai and neuromorphic hardware g. mandal, m. ghosh, and p. mondal. ieee international conference on intelligent signal processing and effective communication technologies (inspect 2025) cited as reference [12]. the citing paper uses the ternary-logic work as part of the conceptual foundation for ternary logic implemented in hardware, with an explicit application context in neuromorphic hardware, ai, and ternary neural circuits. ternary logic gates: advancing computing with -1, 0, 1 base [12]">
-  <div class="citation-static-no">002</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [12]</span><span class="citation-kind">IEEE conference paper</span></div>
-    <div class="citation-static-source">IEEE International Conference on Intelligent Signal Processing and Effective Communication Technologies (INSPECT 2025) · November 2025</div>
-    <h3>Memristor Emulator-Based Ternary Logic Gates for AI and Neuromorphic Hardware</h3>
-    <div class="citation-static-authors">G. Mandal, M. Ghosh, and P. Mondal.</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [12]. The citing paper uses the ternary-logic work as part of the conceptual foundation for ternary logic implemented in hardware, with an explicit application context in neuromorphic hardware, AI, and ternary neural circuits.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base</div>
-      <div class="citation-paper-meta">Yash Diniz; Pearl Bipin Pulickal; Trilochan Panigrahi · June 2024</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/381311830_Ternary_Logic_Gates_Advancing_Computing_with_-1_0_1_Base" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.21765.77281" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Mandal, G.; Ghosh, M.; Mondal, P. Cites the Pulickal et al. ternary-logic preprint as Reference [12].</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://doi.org/10.1109/INSPECT67393.2025.11350313" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="Mandal, G.; Ghosh, M.; Mondal, P. Cites the Pulickal et al. ternary-logic preprint as Reference [12].">COPY REF</button>
-  </div>
+<div class="citation-static-no">002</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [12]</span><span class="citation-kind">IEEE conference paper</span></div>
+<div class="citation-static-source">IEEE International Conference on Intelligent Signal Processing and Effective Communication Technologies (INSPECT 2025) · November 2025</div>
+<h3>Memristor Emulator-Based Ternary Logic Gates for AI and Neuromorphic Hardware</h3>
+<div class="citation-static-authors">G. Mandal, M. Ghosh, and P. Mondal.</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [12]. The citing paper uses the ternary-logic work as part of the conceptual foundation for ternary logic implemented in hardware, with an explicit application context in neuromorphic hardware, AI, and ternary neural circuits.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base</div>
+<div class="citation-paper-meta">Yash Diniz; Pearl Bipin Pulickal; Trilochan Panigrahi · June 2024</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/381311830_Ternary_Logic_Gates_Advancing_Computing_with_-1_0_1_Base" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.21765.77281" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Mandal, G.; Ghosh, M.; Mondal, P. Cites the Pulickal et al. ternary-logic preprint as Reference [12].</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://doi.org/10.1109/INSPECT67393.2025.11350313" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="Mandal, G.; Ghosh, M.; Mondal, P. Cites the Pulickal et al. ternary-logic preprint as Reference [12]." type="button">COPY REF</button>
+</div>
 </article><article class="citation-static-card" data-paper="Anomaly Detection Algorithm for Elliptical Clusters Based On Maximum Cluster Diameter Criteria" data-search="a fault diagnosis method for pressure sensors based on isolation forest and linear regression danfu cao, fuxiao xu, ce han. 2025 4th international symposium on sensor technology and control (isstc) cited as reference [6]. the pressure-sensor fault-diagnosis paper places the anomaly-detection work in the methodological background for anomaly detection and fault prediction where labelled fault data may be extremely scarce. anomaly detection algorithm for elliptical clusters based on maximum cluster diameter criteria [6]">
-  <div class="citation-static-no">003</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [6]</span><span class="citation-kind">IEEE conference paper</span></div>
-    <div class="citation-static-source">2025 4th International Symposium on Sensor Technology and Control (ISSTC) · October 2025</div>
-    <h3>A Fault Diagnosis Method for Pressure Sensors Based on Isolation Forest and Linear Regression</h3>
-    <div class="citation-static-authors">Danfu Cao, Fuxiao Xu, Ce Han.</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [6]. The pressure-sensor fault-diagnosis paper places the anomaly-detection work in the methodological background for anomaly detection and fault prediction where labelled fault data may be extremely scarce.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Anomaly Detection Algorithm for Elliptical Clusters Based On Maximum Cluster Diameter Criteria</div>
-      <div class="citation-paper-meta">KJ Ravi Prasad; Pearl Bipin Pulickal · May 2024</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/381225182_Anomaly_Detection_Algorithm_for_Elliptical_Clusters_Based_On_Maximum_Cluster_Diameter_Criteria" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.16896.44800" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Cao, D.; Xu, F.; Han, C. Cites the Pulickal/Prasad anomaly-detection preprint as Reference [6].</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://doi.org/10.1109/ISSTC67929.2025.11308652" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="Cao, D.; Xu, F.; Han, C. Cites the Pulickal/Prasad anomaly-detection preprint as Reference [6].">COPY REF</button>
-  </div>
-</article><article class="citation-static-card" data-paper="Quantum Limits on Moore&#x27;s Law in Electronics" data-search="nanotechnology meets quantum computing: advancing quantum bits (qubits) and devices for next generation computing talha nadeem, tariq rafique, sedra moulay brahim, et al. nanotechnology perceptions cited as reference [49]. the citation is used in the citing work’s methodology discussion, including its structured “research onion” framework and the ordered definition of epistemological and methodological choices before detailed analysis. quantum limits on moore&#x27;s law in electronics [49]">
-  <div class="citation-static-no">004</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [49]</span><span class="citation-kind">Journal article</span></div>
-    <div class="citation-static-source">Nanotechnology Perceptions · December 1, 2024</div>
-    <h3>Nanotechnology Meets Quantum Computing: Advancing Quantum Bits (Qubits) and Devices for Next Generation Computing</h3>
-    <div class="citation-static-authors">Talha Nadeem, Tariq Rafique, Sedra Moulay Brahim, et al.</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [49]. The citation is used in the citing work’s methodology discussion, including its structured “research onion” framework and the ordered definition of epistemological and methodological choices before detailed analysis.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Quantum Limits on Moore&#x27;s Law in Electronics</div>
-      <div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D&#x27;Costa · July 2024</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Pulickal, P. B., &amp; D&#x27;Costa, B. (2024). Quantum Limits on Moore&#x27;s Law in Electronics.</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://doi.org/10.62441/nano-ntp.vi.3463" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="Pulickal, P. B., &amp; D&#x27;Costa, B. (2024). Quantum Limits on Moore&#x27;s Law in Electronics.">COPY REF</button>
-  </div>
-</article><article class="citation-static-card" data-paper="Quantum Limits on Moore&#x27;s Law in Electronics" data-search="a comprehensive survey on quantum learning and quantum machine learning: dissimilarities, revolutions, and upcoming directions s. abiramasundari, p. umamaheswari. quantum machine learning (wiley book chapter) cited as reference [15]. the chapter places the moore’s-law/quantum-limits paper in its discussion of quantum-computing processing ability, computation speed, and the trajectory of quantum algorithms and computational capability. quantum limits on moore&#x27;s law in electronics [15]">
-  <div class="citation-static-no">005</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [15]</span><span class="citation-kind">Wiley book chapter</span></div>
-    <div class="citation-static-source">Quantum Machine Learning (Wiley Book Chapter) · May 22, 2026</div>
-    <h3>A Comprehensive Survey on Quantum Learning and Quantum Machine Learning: Dissimilarities, Revolutions, and Upcoming Directions</h3>
-    <div class="citation-static-authors">S. Abiramasundari, P. Umamaheswari.</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [15]. The chapter places the Moore’s-law/quantum-limits paper in its discussion of quantum-computing processing ability, computation speed, and the trajectory of quantum algorithms and computational capability.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Quantum Limits on Moore&#x27;s Law in Electronics</div>
-      <div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D&#x27;Costa · July 2024</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Pulickal, P. B., &amp; D&#x27;Costa, B. (2024). Quantum Limits on Moore&#x27;s Law in Electronics. SSRN/ResearchGate preprint.</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://onlinelibrary.wiley.com/doi/10.1002/9781394347070.ch15" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="Pulickal, P. B., &amp; D&#x27;Costa, B. (2024). Quantum Limits on Moore&#x27;s Law in Electronics. SSRN/ResearchGate preprint.">COPY REF</button>
-  </div>
-</article><article class="citation-static-card" data-paper="Quantum Limits on Moore&#x27;s Law in Electronics" data-search="hyper personalization in wealth management powered by medallion architecture vishal sharma; pradeep narayan international insurance law review, vol. 33, no. s5 cited as reference [4] in the paper’s introduction. the citing authors use moore’s law as background for computational scaling and then reference pulickal &amp; d’costa specifically while discussing the relationship between transistor growth, computing power, and the practical cost/scalability pressures of large-scale data processing. quantum limits on moore&#x27;s law in electronics [4]">
-  <div class="citation-static-no">006</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [4]</span><span class="citation-kind">Journal article</span></div>
-    <div class="citation-static-source">International Insurance Law Review, Vol. 33, No. S5 · 2025</div>
-    <h3>Hyper Personalization in Wealth Management Powered by Medallion Architecture</h3>
-    <div class="citation-static-authors">Vishal Sharma; Pradeep Narayan</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [4] in the paper’s introduction. The citing authors use Moore’s Law as background for computational scaling and then reference Pulickal &amp; D’Costa specifically while discussing the relationship between transistor growth, computing power, and the practical cost/scalability pressures of large-scale data processing.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Quantum Limits on Moore&#x27;s Law in Electronics</div>
-      <div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D&#x27;Costa · July 2024</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">[4] Bipin, P. (2024). Quantum Limits on Moore&#x27;s Law in Electronics. Available at SSRN 4915377. https://ssrn.com/abstract=4915377</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://doi.org/10.65677/iilr.33.S5.32" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="[4] Bipin, P. (2024). Quantum Limits on Moore&#x27;s Law in Electronics. Available at SSRN 4915377. https://ssrn.com/abstract=4915377">COPY REF</button>
-  </div>
-</article><article class="citation-static-card" data-paper="Quantum Limits on Moore&#x27;s Law in Electronics" data-search="characterization of heusler alloys: co2nisn, ni2cosn, and conisn at the nano and bulk level paige e. klos and david carnevale. roger williams university digital commons — chemistry theses cited as reference [7]. the thesis uses the moore’s-law paper in section 1.1.2 (spintronics) to frame the physical and theoretical boundaries of conventional chip scaling and motivate discussion of alternative, energy-efficient memory architectures such as magnetic tunneling junctions and spintronics. quantum limits on moore&#x27;s law in electronics [7]">
-  <div class="citation-static-no">007</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [7]</span><span class="citation-kind">Bachelor of Science thesis</span></div>
-    <div class="citation-static-source">Roger Williams University Digital Commons — Chemistry Theses · May 2026</div>
-    <h3>Characterization of Heusler Alloys: Co2NiSn, Ni2CoSn, and CoNiSn at the Nano and Bulk Level</h3>
-    <div class="citation-static-authors">Paige E. Klos and David Carnevale.</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [7]. The thesis uses the Moore’s-law paper in Section 1.1.2 (Spintronics) to frame the physical and theoretical boundaries of conventional chip scaling and motivate discussion of alternative, energy-efficient memory architectures such as magnetic tunneling junctions and spintronics.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Quantum Limits on Moore&#x27;s Law in Electronics</div>
-      <div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D&#x27;Costa · July 2024</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">[7] Pulickal, P. B., &amp; D&#x27;Costa, B. (2024). Quantum Limits on Moore&#x27;s Law in Electronics.</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://docs.rwu.edu/chemistry_theses/4" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="[7] Pulickal, P. B., &amp; D&#x27;Costa, B. (2024). Quantum Limits on Moore&#x27;s Law in Electronics.">COPY REF</button>
-  </div>
-</article><article class="citation-static-card" data-paper="Quantum Limits on Moore&#x27;s Law in Electronics" data-search="flowlogic: a new computational domain for next generation data centres patrick reynolds. ideasown.com cited as reference [25]. the article uses the moore’s-law paper when discussing diminishing returns from conventional scaling and the need to consider alternative computational architectures as physical and efficiency constraints become more restrictive. quantum limits on moore&#x27;s law in electronics [25]">
-  <div class="citation-static-no">008</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [25]</span><span class="citation-kind">Public research / technical article</span></div>
-    <div class="citation-static-source">ideasown.com · 2026</div>
-    <h3>FlowLogic: A New Computational Domain for Next Generation Data Centres</h3>
-    <div class="citation-static-authors">Patrick Reynolds.</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [25]. The article uses the Moore’s-law paper when discussing diminishing returns from conventional scaling and the need to consider alternative computational architectures as physical and efficiency constraints become more restrictive.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Quantum Limits on Moore&#x27;s Law in Electronics</div>
-      <div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D&#x27;Costa · July 2024</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Pulickal, P. &amp; D’Costa, B. (2024). Quantum Limits on Moore&#x27;s Law in Electronics.</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://www.ideasown.com/flowlogic-architecture/" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="Pulickal, P. &amp; D’Costa, B. (2024). Quantum Limits on Moore&#x27;s Law in Electronics.">COPY REF</button>
-  </div>
-</article><article class="citation-static-card" data-paper="Quantum Limits on Moore&#x27;s Law in Electronics" data-search="glass-based co-packaged optical frontier technologies and applications (invited) zhenzhen wang, guiqi wang, guoliang chen, yang hu, ruile zhang, chengyang zhang, kaiwei chen, hui wang, xinyue qiu, zhengping li, and lijun wang. acta optica sinica, vol. 46, no. 7 cited as reference [10]. the invited article invokes the work in support of a specific semiconductor-scaling statement: continued miniaturization can encounter quantum tunnelling limits that impair control of electron flow and create device-reliability challenges. the publisher page is in simplified chinese; the english rendering shown here follows the supplied citation record. quantum limits on moore&#x27;s law in electronics [10]">
-  <div class="citation-static-no">009</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [10]</span><span class="citation-kind">Journal article / invited paper</span></div>
-    <div class="citation-static-source">Acta Optica Sinica, Vol. 46, No. 7 · April 15, 2026 · Simplified Chinese publisher page</div>
-    <h3>Glass-Based Co-Packaged Optical Frontier Technologies and Applications (Invited)</h3>
-    <div class="citation-static-authors">Zhenzhen Wang, Guiqi Wang, Guoliang Chen, Yang Hu, Ruile Zhang, Chengyang Zhang, Kaiwei Chen, Hui Wang, Xinyue Qiu, Zhengping Li, and Lijun Wang.</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [10]. The invited article invokes the work in support of a specific semiconductor-scaling statement: continued miniaturization can encounter quantum tunnelling limits that impair control of electron flow and create device-reliability challenges. The publisher page is in simplified Chinese; the English rendering shown here follows the supplied citation record.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Quantum Limits on Moore&#x27;s Law in Electronics</div>
-      <div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D&#x27;Costa · July 2024</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Pulickal, P. B., &amp; D’Costa, B. (2024). Quantum Limits on Moore&#x27;s Law in Electronics.</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://www.opticsjournal.net/Articles/OJ8c99f3fe5bbe2fc9/FullText" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="Pulickal, P. B., &amp; D’Costa, B. (2024). Quantum Limits on Moore&#x27;s Law in Electronics.">COPY REF</button>
-  </div>
+<div class="citation-static-no">003</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [6]</span><span class="citation-kind">IEEE conference paper</span></div>
+<div class="citation-static-source">2025 4th International Symposium on Sensor Technology and Control (ISSTC) · October 2025</div>
+<h3>A Fault Diagnosis Method for Pressure Sensors Based on Isolation Forest and Linear Regression</h3>
+<div class="citation-static-authors">Danfu Cao, Fuxiao Xu, Ce Han.</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [6]. The pressure-sensor fault-diagnosis paper places the anomaly-detection work in the methodological background for anomaly detection and fault prediction where labelled fault data may be extremely scarce.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Anomaly Detection Algorithm for Elliptical Clusters Based On Maximum Cluster Diameter Criteria</div>
+<div class="citation-paper-meta">KJ Ravi Prasad; Pearl Bipin Pulickal · May 2024</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/381225182_Anomaly_Detection_Algorithm_for_Elliptical_Clusters_Based_On_Maximum_Cluster_Diameter_Criteria" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.16896.44800" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Cao, D.; Xu, F.; Han, C. Cites the Pulickal/Prasad anomaly-detection preprint as Reference [6].</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://doi.org/10.1109/ISSTC67929.2025.11308652" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="Cao, D.; Xu, F.; Han, C. Cites the Pulickal/Prasad anomaly-detection preprint as Reference [6]." type="button">COPY REF</button>
+</div>
+</article><article class="citation-static-card" data-paper="Quantum Limits on Moore's Law in Electronics" data-search="nanotechnology meets quantum computing: advancing quantum bits (qubits) and devices for next generation computing talha nadeem, tariq rafique, sedra moulay brahim, et al. nanotechnology perceptions cited as reference [49]. the citation is used in the citing work’s methodology discussion, including its structured “research onion” framework and the ordered definition of epistemological and methodological choices before detailed analysis. quantum limits on moore's law in electronics [49]">
+<div class="citation-static-no">004</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [49]</span><span class="citation-kind">Journal article</span></div>
+<div class="citation-static-source">Nanotechnology Perceptions · December 1, 2024</div>
+<h3>Nanotechnology Meets Quantum Computing: Advancing Quantum Bits (Qubits) and Devices for Next Generation Computing</h3>
+<div class="citation-static-authors">Talha Nadeem, Tariq Rafique, Sedra Moulay Brahim, et al.</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [49]. The citation is used in the citing work’s methodology discussion, including its structured “research onion” framework and the ordered definition of epistemological and methodological choices before detailed analysis.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Quantum Limits on Moore's Law in Electronics</div>
+<div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D'Costa · July 2024</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Pulickal, P. B., &amp; D'Costa, B. (2024). Quantum Limits on Moore's Law in Electronics.</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://doi.org/10.62441/nano-ntp.vi.3463" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="Pulickal, P. B., &amp; D'Costa, B. (2024). Quantum Limits on Moore's Law in Electronics." type="button">COPY REF</button>
+</div>
+</article><article class="citation-static-card" data-paper="Quantum Limits on Moore's Law in Electronics" data-search="a comprehensive survey on quantum learning and quantum machine learning: dissimilarities, revolutions, and upcoming directions s. abiramasundari, p. umamaheswari. quantum machine learning (wiley book chapter) cited as reference [15]. the chapter places the moore’s-law/quantum-limits paper in its discussion of quantum-computing processing ability, computation speed, and the trajectory of quantum algorithms and computational capability. quantum limits on moore's law in electronics [15]">
+<div class="citation-static-no">005</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [15]</span><span class="citation-kind">Wiley book chapter</span></div>
+<div class="citation-static-source">Quantum Machine Learning (Wiley Book Chapter) · May 22, 2026</div>
+<h3>A Comprehensive Survey on Quantum Learning and Quantum Machine Learning: Dissimilarities, Revolutions, and Upcoming Directions</h3>
+<div class="citation-static-authors">S. Abiramasundari, P. Umamaheswari.</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [15]. The chapter places the Moore’s-law/quantum-limits paper in its discussion of quantum-computing processing ability, computation speed, and the trajectory of quantum algorithms and computational capability.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Quantum Limits on Moore's Law in Electronics</div>
+<div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D'Costa · July 2024</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Pulickal, P. B., &amp; D'Costa, B. (2024). Quantum Limits on Moore's Law in Electronics. SSRN/ResearchGate preprint.</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://onlinelibrary.wiley.com/doi/10.1002/9781394347070.ch15" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="Pulickal, P. B., &amp; D'Costa, B. (2024). Quantum Limits on Moore's Law in Electronics. SSRN/ResearchGate preprint." type="button">COPY REF</button>
+</div>
+</article><article class="citation-static-card" data-paper="Quantum Limits on Moore's Law in Electronics" data-search="hyper personalization in wealth management powered by medallion architecture vishal sharma; pradeep narayan international insurance law review, vol. 33, no. s5 cited as reference [4] in the paper’s introduction. the citing authors use moore’s law as background for computational scaling and then reference pulickal &amp; d’costa specifically while discussing the relationship between transistor growth, computing power, and the practical cost/scalability pressures of large-scale data processing. quantum limits on moore's law in electronics [4]">
+<div class="citation-static-no">006</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [4]</span><span class="citation-kind">Journal article</span></div>
+<div class="citation-static-source">International Insurance Law Review, Vol. 33, No. S5 · 2025</div>
+<h3>Hyper Personalization in Wealth Management Powered by Medallion Architecture</h3>
+<div class="citation-static-authors">Vishal Sharma; Pradeep Narayan</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [4] in the paper’s introduction. The citing authors use Moore’s Law as background for computational scaling and then reference Pulickal &amp; D’Costa specifically while discussing the relationship between transistor growth, computing power, and the practical cost/scalability pressures of large-scale data processing.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Quantum Limits on Moore's Law in Electronics</div>
+<div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D'Costa · July 2024</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">[4] Bipin, P. (2024). Quantum Limits on Moore's Law in Electronics. Available at SSRN 4915377. https://ssrn.com/abstract=4915377</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://doi.org/10.65677/iilr.33.S5.32" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="[4] Bipin, P. (2024). Quantum Limits on Moore's Law in Electronics. Available at SSRN 4915377. https://ssrn.com/abstract=4915377" type="button">COPY REF</button>
+</div>
+</article><article class="citation-static-card" data-paper="Quantum Limits on Moore's Law in Electronics" data-search="characterization of heusler alloys: co2nisn, ni2cosn, and conisn at the nano and bulk level paige e. klos and david carnevale. roger williams university digital commons — chemistry theses cited as reference [7]. the thesis uses the moore’s-law paper in section 1.1.2 (spintronics) to frame the physical and theoretical boundaries of conventional chip scaling and motivate discussion of alternative, energy-efficient memory architectures such as magnetic tunneling junctions and spintronics. quantum limits on moore's law in electronics [7]">
+<div class="citation-static-no">007</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [7]</span><span class="citation-kind">Bachelor of Science thesis</span></div>
+<div class="citation-static-source">Roger Williams University Digital Commons — Chemistry Theses · May 2026</div>
+<h3>Characterization of Heusler Alloys: Co2NiSn, Ni2CoSn, and CoNiSn at the Nano and Bulk Level</h3>
+<div class="citation-static-authors">Paige E. Klos and David Carnevale.</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [7]. The thesis uses the Moore’s-law paper in Section 1.1.2 (Spintronics) to frame the physical and theoretical boundaries of conventional chip scaling and motivate discussion of alternative, energy-efficient memory architectures such as magnetic tunneling junctions and spintronics.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Quantum Limits on Moore's Law in Electronics</div>
+<div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D'Costa · July 2024</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">[7] Pulickal, P. B., &amp; D'Costa, B. (2024). Quantum Limits on Moore's Law in Electronics.</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://docs.rwu.edu/chemistry_theses/4" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="[7] Pulickal, P. B., &amp; D'Costa, B. (2024). Quantum Limits on Moore's Law in Electronics." type="button">COPY REF</button>
+</div>
+</article><article class="citation-static-card" data-paper="Quantum Limits on Moore's Law in Electronics" data-search="flowlogic: a new computational domain for next generation data centres patrick reynolds. ideasown.com cited as reference [25]. the article uses the moore’s-law paper when discussing diminishing returns from conventional scaling and the need to consider alternative computational architectures as physical and efficiency constraints become more restrictive. quantum limits on moore's law in electronics [25]">
+<div class="citation-static-no">008</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [25]</span><span class="citation-kind">Public research / technical article</span></div>
+<div class="citation-static-source">ideasown.com · 2026</div>
+<h3>FlowLogic: A New Computational Domain for Next Generation Data Centres</h3>
+<div class="citation-static-authors">Patrick Reynolds.</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [25]. The article uses the Moore’s-law paper when discussing diminishing returns from conventional scaling and the need to consider alternative computational architectures as physical and efficiency constraints become more restrictive.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Quantum Limits on Moore's Law in Electronics</div>
+<div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D'Costa · July 2024</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Pulickal, P. &amp; D’Costa, B. (2024). Quantum Limits on Moore's Law in Electronics.</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://www.ideasown.com/flowlogic-architecture/" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="Pulickal, P. &amp; D’Costa, B. (2024). Quantum Limits on Moore's Law in Electronics." type="button">COPY REF</button>
+</div>
+</article><article class="citation-static-card" data-paper="Quantum Limits on Moore's Law in Electronics" data-search="glass-based co-packaged optical frontier technologies and applications (invited) zhenzhen wang, guiqi wang, guoliang chen, yang hu, ruile zhang, chengyang zhang, kaiwei chen, hui wang, xinyue qiu, zhengping li, and lijun wang. acta optica sinica, vol. 46, no. 7 cited as reference [10]. the invited article invokes the work in support of a specific semiconductor-scaling statement: continued miniaturization can encounter quantum tunnelling limits that impair control of electron flow and create device-reliability challenges. the publisher page is in simplified chinese; the english rendering shown here follows the supplied citation record. quantum limits on moore's law in electronics [10]">
+<div class="citation-static-no">009</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [10]</span><span class="citation-kind">Journal article / invited paper</span></div>
+<div class="citation-static-source">Acta Optica Sinica, Vol. 46, No. 7 · April 15, 2026 · Simplified Chinese publisher page</div>
+<h3>Glass-Based Co-Packaged Optical Frontier Technologies and Applications (Invited)</h3>
+<div class="citation-static-authors">Zhenzhen Wang, Guiqi Wang, Guoliang Chen, Yang Hu, Ruile Zhang, Chengyang Zhang, Kaiwei Chen, Hui Wang, Xinyue Qiu, Zhengping Li, and Lijun Wang.</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [10]. The invited article invokes the work in support of a specific semiconductor-scaling statement: continued miniaturization can encounter quantum tunnelling limits that impair control of electron flow and create device-reliability challenges. The publisher page is in simplified Chinese; the English rendering shown here follows the supplied citation record.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Quantum Limits on Moore's Law in Electronics</div>
+<div class="citation-paper-meta">Pearl Bipin Pulickal; Brenner D'Costa · July 2024</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/382625605_Quantum_Limits_on_Moores_Law_in_Electronics" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.23094.31040" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Pulickal, P. B., &amp; D’Costa, B. (2024). Quantum Limits on Moore's Law in Electronics.</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://www.opticsjournal.net/Articles/OJ8c99f3fe5bbe2fc9/FullText" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="Pulickal, P. B., &amp; D’Costa, B. (2024). Quantum Limits on Moore's Law in Electronics." type="button">COPY REF</button>
+</div>
 </article><article class="citation-static-card" data-paper="Cognitive Offloading and Work Delegation: A Strategy for Intellectual Efficiency and Resilience via Artificial Intelligence" data-search="artificial intelligence as a potential empowerment tool for single mothers: opportunities, risks, and structural implications yujia zhu advances in social behavior research, 17(5) cited as reference [84]. the citing review uses the cognitive-offloading work when discussing how ai-mediated automation can reduce cognitive burden, allowing people to concentrate on higher-priority duties and optimize available cognitive resources. the supplied record includes the quoted sentence that follows the [84] citation. cognitive offloading and work delegation: a strategy for intellectual efficiency and resilience via artificial intelligence [84]">
-  <div class="citation-static-no">010</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [84]</span><span class="citation-kind">Research article</span></div>
-    <div class="citation-static-source">Advances in Social Behavior Research, 17(5) · April 20, 2026</div>
-    <h3>Artificial Intelligence as a Potential Empowerment Tool for Single Mothers: Opportunities, Risks, and Structural Implications</h3>
-    <div class="citation-static-authors">Yujia Zhu</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [84]. The citing review uses the cognitive-offloading work when discussing how AI-mediated automation can reduce cognitive burden, allowing people to concentrate on higher-priority duties and optimize available cognitive resources. The supplied record includes the quoted sentence that follows the [84] citation.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Cognitive Offloading and Work Delegation: A Strategy for Intellectual Efficiency and Resilience via Artificial Intelligence</div>
-      <div class="citation-paper-meta">Pearl Bipin Pulickal · November 2025</div>
-      <div class="citation-paper-actions"><a href="https://doi.org/10.5281/zenodo.17512238" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.5281/zenodo.17512238" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Zhu, Y. (2026). Artificial Intelligence as a Potential Empowerment Tool for Single Mothers: Opportunities, Risks, and Structural Implications. Reference [84] cites Pulickal’s Cognitive Offloading and Work Delegation.</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://doi.org/10.54254/2753-7102/2026.32938" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="Zhu, Y. (2026). Artificial Intelligence as a Potential Empowerment Tool for Single Mothers: Opportunities, Risks, and Structural Implications. Reference [84] cites Pulickal’s Cognitive Offloading and Work Delegation.">COPY REF</button>
-  </div>
+<div class="citation-static-no">010</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [84]</span><span class="citation-kind">Research article</span></div>
+<div class="citation-static-source">Advances in Social Behavior Research, 17(5) · April 20, 2026</div>
+<h3>Artificial Intelligence as a Potential Empowerment Tool for Single Mothers: Opportunities, Risks, and Structural Implications</h3>
+<div class="citation-static-authors">Yujia Zhu</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [84]. The citing review uses the cognitive-offloading work when discussing how AI-mediated automation can reduce cognitive burden, allowing people to concentrate on higher-priority duties and optimize available cognitive resources. The supplied record includes the quoted sentence that follows the [84] citation.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Cognitive Offloading and Work Delegation: A Strategy for Intellectual Efficiency and Resilience via Artificial Intelligence</div>
+<div class="citation-paper-meta">Pearl Bipin Pulickal · November 2025</div>
+<div class="citation-paper-actions"><a href="https://doi.org/10.5281/zenodo.17512238" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.5281/zenodo.17512238" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Zhu, Y. (2026). Artificial Intelligence as a Potential Empowerment Tool for Single Mothers: Opportunities, Risks, and Structural Implications. Reference [84] cites Pulickal’s Cognitive Offloading and Work Delegation.</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://doi.org/10.54254/2753-7102/2026.32938" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="Zhu, Y. (2026). Artificial Intelligence as a Potential Empowerment Tool for Single Mothers: Opportunities, Risks, and Structural Implications. Reference [84] cites Pulickal’s Cognitive Offloading and Work Delegation." type="button">COPY REF</button>
+</div>
 </article><article class="citation-static-card" data-paper="An Elegant Expression for π in Terms of Complex Logarithms" data-search="development of durable highly stretchable electrothermal conductive fabrics coated with carbon-based fillers azam ali; blanka tomkova; mohanapriya venkataraman; jiri militky; jakub wiener journal of industrial textiles, vol. 55 cited as reference [40]. the citation occurs within analytical and signal-processing discussion involving alternating-current (ac) systems. the citing authors use the complex-logarithm identity as part of the mathematical framework employed during electrothermal testing of conductive fabrics. an elegant expression for π in terms of complex logarithms [40]">
-  <div class="citation-static-no">011</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [40]</span><span class="citation-kind">SAGE journal article</span></div>
-    <div class="citation-static-source">Journal of Industrial Textiles, Vol. 55 · August 11, 2025</div>
-    <h3>Development of Durable Highly Stretchable Electrothermal Conductive Fabrics Coated with Carbon-Based Fillers</h3>
-    <div class="citation-static-authors">Azam Ali; Blanka Tomkova; Mohanapriya Venkataraman; Jiri Militky; Jakub Wiener</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [40]. The citation occurs within analytical and signal-processing discussion involving alternating-current (AC) systems. The citing authors use the complex-logarithm identity as part of the mathematical framework employed during electrothermal testing of conductive fabrics.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">An Elegant Expression for π in Terms of Complex Logarithms</div>
-      <div class="citation-paper-meta">Pearl Bipin Pulickal · 2025</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/392477499_An_Elegant_Expression_for_p_in_Terms_of_Complex_Logarithms" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.32262.28489" target="_blank" rel="noopener noreferrer">↗ DOI / RECORD</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">40. Bipin, P. An elegant expression for π in terms of complex logarithms. ResearchGate, 2025.</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://journals.sagepub.com/doi/10.1177/15280837251364519" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="40. Bipin, P. An elegant expression for π in terms of complex logarithms. ResearchGate, 2025.">COPY REF</button>
-  </div>
+<div class="citation-static-no">011</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [40]</span><span class="citation-kind">SAGE journal article</span></div>
+<div class="citation-static-source">Journal of Industrial Textiles, Vol. 55 · August 11, 2025</div>
+<h3>Development of Durable Highly Stretchable Electrothermal Conductive Fabrics Coated with Carbon-Based Fillers</h3>
+<div class="citation-static-authors">Azam Ali; Blanka Tomkova; Mohanapriya Venkataraman; Jiri Militky; Jakub Wiener</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [40]. The citation occurs within analytical and signal-processing discussion involving alternating-current (AC) systems. The citing authors use the complex-logarithm identity as part of the mathematical framework employed during electrothermal testing of conductive fabrics.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">An Elegant Expression for π in Terms of Complex Logarithms</div>
+<div class="citation-paper-meta">Pearl Bipin Pulickal · 2025</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/392477499_An_Elegant_Expression_for_p_in_Terms_of_Complex_Logarithms" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a><a href="https://doi.org/10.13140/RG.2.2.32262.28489" rel="noopener noreferrer" target="_blank">↗ DOI / RECORD</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">40. Bipin, P. An elegant expression for π in terms of complex logarithms. ResearchGate, 2025.</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://journals.sagepub.com/doi/10.1177/15280837251364519" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="40. Bipin, P. An elegant expression for π in terms of complex logarithms. ResearchGate, 2025." type="button">COPY REF</button>
+</div>
 </article><article class="citation-static-card" data-paper="Hybrid Dynamical Systems: Unifying Memoryless Markov Chains with Memory-Based Integral Equations (Fredholm-Volterra Framework)" data-search="advancing solutions for fractional volterra-fredholm integro-differential equations: a comprehensive review of recent numerical methods ali karim lelo alobaidi. international journal of research and innovation in applied science (ijrias), volume xi issue vi cited as reference [141]. the 2026 review places the hybrid stochastic-deterministic framework within its broader literature map of numerical methods for fractional volterra–fredholm integro-differential equations, alongside other recent applied-mathematics approaches. hybrid dynamical systems: unifying memoryless markov chains with memory-based integral equations (fredholm-volterra framework) [141]">
-  <div class="citation-static-no">012</div>
-  <div>
-    <div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [141]</span><span class="citation-kind">Review article</span></div>
-    <div class="citation-static-source">International Journal of Research and Innovation in Applied Science (IJRIAS), Volume XI Issue VI · June 2026</div>
-    <h3>Advancing Solutions for Fractional Volterra-Fredholm Integro-Differential Equations: A Comprehensive Review of Recent Numerical Methods</h3>
-    <div class="citation-static-authors">Ali Karim Lelo Alobaidi.</div>
-    <div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
-    <p>Cited as Reference [141]. The 2026 review places the hybrid stochastic-deterministic framework within its broader literature map of numerical methods for fractional Volterra–Fredholm integro-differential equations, alongside other recent applied-mathematics approaches.</p>
-    <div class="citation-paper-panel">
-      <div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
-      <div class="citation-paper-title">Hybrid Dynamical Systems: Unifying Memoryless Markov Chains with Memory-Based Integral Equations (Fredholm-Volterra Framework)</div>
-      <div class="citation-paper-meta">Pearl Bipin Pulickal · 2025</div>
-      <div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/395536805_Hybrid_Dynamical_Systems_Unifying_Memoryless_Markov_Chains_with_Memory-Based_Integral_Equations_Fredholm-Volterra_Framework" target="_blank" rel="noopener noreferrer">↗ MY PAPER</a></div>
-    </div>
-    <details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Alobaidi, A. K. L. (2026). Cites Pulickal’s Hybrid Dynamical Systems as Reference [141].</div></details>
-  </div>
-  <div class="citation-static-actions">
-    <a href="https://doi.org/10.51584/IJRIAS.2026.11060125" target="_blank" rel="noopener noreferrer">↗ CITING WORK</a>
-    
-    <button type="button" class="copy-citation" data-copy="Alobaidi, A. K. L. (2026). Cites Pulickal’s Hybrid Dynamical Systems as Reference [141].">COPY REF</button>
-  </div>
-</article></div><div id="citationRegister" class="citation-register" aria-hidden="true"></div>
-      </section>
-
-      <section class="media-hero" id="media">
-        <div class="media-head">
-          <div>
-            <div class="eyebrow">THIRD-PARTY MEDIA & PUBLIC RECEPTION</div>
-            <h2 class="section-title">Media Reception Archive</h2>
-            <p class="media-intro">A source-linked record of the 2026 Easter media cycle around Pearl Bipin Pulickal's Resurrection research. This section separates direct coverage from public discussion and downstream distribution. It records what external publications said about the research and, where explicitly stated, how they identified the author — including recurring descriptions as an engineer from NIT Goa and, in some cases, an engineer and mathematician.</p>
-          </div>
-          <div class="media-counter"><strong id="mediaCounter">0</strong><small>TRACKED MEDIA / RECEPTION RECORDS</small></div>
-        </div>
-        <div class="media-note"><strong>Scope rule:</strong> media coverage is not treated as academic validation. A journalist describing the author as an engineer or mathematician is recorded as third-party attribution; it is not presented as peer recognition by the mathematical or engineering research community. Likewise, repeated syndicated copies are not counted as independent reporting.</div>
-        <div class="media-static-grid"><div class="media-subhead">Direct media coverage<span>individual publisher/article endpoints</span></div><article class="media-card">
-      <span class="media-type">DIRECT COVERAGE</span>
-      <div class="media-meta">Ancient Origins · 2026-04-05 · Analytical / religion &amp; history</div>
-      <h3>Does A New Approach Prove the Resurrection of Jesus?</h3>
-      <div class="media-summary">A long-form analytical article examines the historical, legal and philosophical architecture of the study, including the Minimal Facts approach, the empty tomb, reported appearances, James and Paul, and naturalistic alternatives.</div>
-      <div class="media-attribution">The article identifies Pearl Bipin as an <strong>engineer and mathematician with NIT Goa</strong>.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.ancient-origins.net/news-history-archaeology/jesus-resurrection-evidence-00102659" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card">
-      <span class="media-type">DIRECT COVERAGE</span>
-      <div class="media-meta">Prince Ea · 2026-04-09 · Popular / creator-media</div>
-      <h3>Study Suggests The Resurrection Of Jesus Could Be Historically Real</h3>
-      <div class="media-summary">The article presents the study to a broad public audience, focusing especially on the medical argument against the swoon theory, the empty tomb and the later appearance claims.</div>
-      <div class="media-attribution">The author is introduced as an <strong>engineer with the National Institute of Technology in Goa, India</strong>.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://princeea.com/the-resurrection-of-jesus-study/" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card">
-      <span class="media-type">DIRECT COVERAGE</span>
-      <div class="media-meta">Joe.ie · 2026-04 · News / Ireland</div>
-      <h3>Study discovers “evidence” that Jesus rose from the dead after crucifixion</h3>
-      <div class="media-summary">Irish news coverage summarizing the study’s test of resurrection claims, including the empty tomb, post-crucifixion appearances and historical references.</div>
-      <div class="media-attribution">The article identifies Pearl Bipin as an <strong>engineer with the National Institute of Technology in Goa</strong>.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.joe.ie/news/study-discovers-evidence-that-jesus-rose-from-the-dead-after-crucifixion-868636" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card">
-      <span class="media-type">DIRECT COVERAGE</span>
-      <div class="media-meta">El Tiempo · 2026-04 · News / Colombia</div>
-      <h3>Estudio sobre Jesús afirma que la resurrección es la opción más creíble…</h3>
-      <div class="media-summary">Spanish-language coverage frames the investigation as a multidisciplinary analysis using historical evidence, forensic reasoning and Bayesian probability.</div>
-      <div class="media-attribution">The article describes Pearl as an <strong>engineer from the National Institute of Technology in Goa, India</strong>.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.eltiempo.com/cultura/gente/estudio-sobre-jesus-afirma-que-la-resurreccion-es-la-opcion-mas-creible-tras-la-crucifixion-reabre-uno-de-los-mayores-misterios-de-su-muerte-3548036" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card">
-      <span class="media-type">DIRECT COVERAGE</span>
-      <div class="media-meta">La Nación · 2026-04 · News / Argentina</div>
-      <h3>Un estudio científico… sobre la resurrección de Jesús</h3>
-      <div class="media-summary">Argentine science coverage presents the research as an engineering-oriented attempt to apply structured historical, forensic and probabilistic reasoning to an ancient historical claim.</div>
-      <div class="media-attribution">The report identifies Pearl as an <strong>engineer at NIT Goa</strong> and centers the technical framing of the investigation.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.lanacion.com.ar/ciencia/un-estudio-cientifico-comprobo-que-jesus-resucito-luego-de-tres-dias-muerto-nid07042026/" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card">
-      <span class="media-type">DIRECT COVERAGE</span>
-      <div class="media-meta">Evangélico Digital · 2026-04 · News / Spanish-language</div>
-      <h3>Estudio científico secular concluye que la resurrección…</h3>
-      <div class="media-summary">Coverage emphasizes that the study’s opening evidentiary frame is deliberately secular, drawing first on external historical sources before moving into medical and probabilistic arguments.</div>
-      <div class="media-attribution">The author is identified as an <strong>engineer from NIT Goa</strong> working across historical, forensic and mathematical analysis.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.evangelicodigital.com/ciencia/41055/estudio-cientifico-secular-concluye-que-la-resurreccion-de-jesus-es-la-hipotesis-mas-creible" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card">
-      <span class="media-type">DIRECT COVERAGE</span>
-      <div class="media-meta">Daily Star · 2026-04 · News / United Kingdom</div>
-      <h3>Jesus&#x27;s Easter resurrection mystery intensifies…</h3>
-      <div class="media-summary">UK Easter-season coverage focuses on the public intrigue generated by a technical analysis of the historical resurrection question and its challenge to familiar skeptical explanations.</div>
-      <div class="media-attribution">The article frames the research through the author’s <strong>NIT Goa engineering background</strong>.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.dailystar.co.uk/news/latest-news/jesuss-easter-resurrection-mystery-intensifies-36970882" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card">
-      <span class="media-type">DIRECT COVERAGE</span>
-      <div class="media-meta">Daily Mail · 2026-04-04 · News / United Kingdom</div>
-      <h3>Jesus&#x27;s resurrection mystery intensifies as study reveals ‘evidence’ supporting he rose from the dead</h3>
-      <div class="media-summary">Detailed coverage highlights the clinical and forensic portions of the study, including the medical interpretation of crucifixion trauma and its use against the swoon theory, alongside the historical case.</div>
-      <div class="media-attribution">The story identifies the author through the <strong>engineer / NIT Goa</strong> framing used across the coverage cycle.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.dailymail.co.uk/sciencetech/article-15685299/jesus-resurrection-study-evidence.html" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card">
-      <span class="media-type">DIRECT COVERAGE</span>
-      <div class="media-meta">MSN Lifestyle · 2026-04 · Lifestyle / United States</div>
-      <h3>Jesus’s resurrection mystery intensifies as study reveals evidence supporting He rose from dead</h3>
-      <div class="media-summary">Lifestyle coverage broadens the story to a mass audience, summarizing the study’s historical evidence, medical arguments and challenges to naturalistic alternatives.</div>
-      <div class="media-attribution">The reporting uses the recurring <strong>engineer / NIT Goa</strong> identity framing from the wider media cycle.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.msn.com/en-us/lifestyle/mind-and-soul/jesus-s-resurrection-mystery-intensifies-as-study-reveals-evidence-supporting-he-rose-from-dead/ar-AA209qZs?ocid=bb7hp" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card">
-      <span class="media-type">DIRECT COVERAGE</span>
-      <div class="media-meta">LADbible · 2026-04 · News / United Kingdom</div>
-      <h3>Jesus study evidence: Rose from dead (Easter)</h3>
-      <div class="media-summary">The outlet is recorded in the independent media-mentions dossier as covering the study during Easter. The archival locator is linked here because the exact live article endpoint was not stably recovered during verification.</div>
-      <div class="media-attribution">Tracked as direct media coverage in the supplied record; <strong>direct live-page wording is not asserted until the article endpoint is re-verified</strong>.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.researchgate.net/publication/404374708_Recent_Media_Mentions_and_Academic_Citations_Media_Mentions" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card media-secondary">
-      <span class="media-type">DIRECT / TRANSLATED COVERAGE</span>
-      <div class="media-meta">Borsonline · 2026-04 · Secondary / Hungary</div>
-      <h3>Hit vagy történelem? Itt a bizonyíték Jézus feltámadására</h3>
-      <div class="media-summary">Hungarian-language coverage summarizes the study’s historical, medical and resurrection arguments and explicitly attributes the discussion to the research and to earlier LADbible reporting.</div>
-      <div class="media-attribution">This is best treated as an additional <strong>coverage endpoint</strong>, but the article itself points back to LADbible, so it should not be counted as a wholly independent reporting origin.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.borsonline.hu/igaz-tortenetek/2026/04/jezus-feltamadasara-bizonyitekot-talaltak" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><div class="media-subhead">Public reception<span>audience discussion; not academic validation</span></div><article class="media-card media-discussion">
-      <span class="media-type">PUBLIC DISCUSSION</span>
-      <div class="media-meta">DC Urban Moms and Dads · 2026-04 · Public discussion / United States</div>
-      <h3>Religion forum discussion of the resurrection study</h3>
-      <div class="media-summary">A public discussion thread reproduces the story and contains extended reader debate over the historical sources, Bayesian reasoning, miracle priors and the credibility of the argument.</div>
-      <div class="media-attribution">The thread repeats the <strong>engineer / NIT Goa</strong> description and shows independent audience reaction. This is reception evidence, not academic validation.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.dcurbanmom.com/jforum/posts/list/1321654.page" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><div class="media-subhead">Distribution &amp; archival traces<span>propagation / locator records; not additional independent reporting</span></div><article class="media-card media-distribution">
-      <span class="media-type">DISTRIBUTION TRACE</span>
-      <div class="media-meta">Grabien / The Wire · 2026-04 · Aggregation / distribution</div>
-      <h3>Daily Mail story carried downstream</h3>
-      <div class="media-summary">A downstream endpoint carrying the Daily Mail story. Useful for documenting propagation, but not counted as an additional independent reporting outlet.</div>
-      <div class="media-attribution">Marked explicitly as <strong>distribution</strong>, not independent reporting.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://news.grabien.com/thewire/jesuss-resurrection-mystery-intensifies-as-study-reveals-evidence-supp" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card media-distribution">
-      <span class="media-type">DISTRIBUTION TRACE</span>
-      <div class="media-meta">NewsLocker · 2026-04 · Aggregation / distribution</div>
-      <h3>Daily Mail article indexed in downstream feeds</h3>
-      <div class="media-summary">NewsLocker search results preserve the Daily Mail article as a downstream feed item dated 4 April 2026.</div>
-      <div class="media-attribution">The page identifies the underlying publisher as <strong>dailymail.co.uk</strong>; this is a propagation trace, not an independent outlet.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://www.newslocker.com/en-uk/news/sci_tech/nasa-announces-change-to-its-moon-landing-plans/" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article><article class="media-card media-distribution">
-      <span class="media-type">ARCHIVAL REGISTER</span>
-      <div class="media-meta">PhilArchive Media Dossier · 2026-06 · Primary archival document</div>
-      <h3>Archival Dossier of Global Media Coverage and Unsolicited Independent Virality</h3>
-      <div class="media-summary">The consolidated dossier preserves the original seven-outlet register and provides the underlying URLs for the archival media cycle. It is an author-maintained dossier and therefore functions as a locator/index rather than independent confirmation of every claim it makes.</div>
-      <div class="media-attribution">Use as an <strong>archival index</strong>. The site separates its own assertions about virality from independently verifiable article records.</div>
-      <div class="media-actions"><a class="record-btn primary" href="https://philarchive.org/archive/PULADO-2" target="_blank" rel="noopener noreferrer">↗ OPEN SOURCE</a></div>
-    </article></div><div id="mediaRegister" class="media-register" aria-hidden="true"></div>
-      </section>
-
-      <div class="section-head">
-        <h2 class="section-title">Evidence Ledger</h2>
-        <div class="section-note">Institutional records · recommendations · documentary evidence · citation entries</div>
-      </div>
-
-      <div id="records" class="records"></div>
-    </section>
-  </main>
-
-  <section id="methodology" class="methodology-section">
-    <div class="wrap">
-      <div class="eyebrow">METHODOLOGY</div>
-      <h2 class="section-title">Claim scope is explicit.</h2>
-      <p>Each record is linked to the narrow proposition it supports. A citation is recorded as evidence that a citing work references the named preprint; it is not presented as a proof of correctness of the cited research.</p>
-    </div>
-  </section>
-
-  <footer>
-    <div class="wrap">
-      <span class="footer-mark">PEARL BIPIN VERIFICATION</span>
-      <span>Prototype 0.5 · 12 citation records · 15 media/reception records · 20 local document records · self-contained HTML archive</span>
-    </div>
-  </footer>
-
-  <div class="modal" id="modal" aria-hidden="true">
-    <div class="modal-panel">
-      <div class="modal-head">
-        <div class="modal-title"><div class="modal-id" id="modalId"></div><h2 id="modalTitle">Evidence document</h2></div>
-        <div class="modal-tools"><a class="open-tab" id="modalOpen" href="#" target="_blank" rel="noopener noreferrer">↗ OPEN IN NEW TAB</a><a class="download" id="modalDownload" href="#" download>↓ DOWNLOAD</a><button class="close" id="modalClose" type="button">×</button></div>
-      </div>
-      <div class="viewer-wrap">
-        <iframe class="pdf-frame" id="pdfFrame" title="Evidence PDF preview"></iframe>
-        <img class="image-frame" id="imageFrame" alt="Evidence image preview">
-      </div>
-      <div class="modal-fallback" id="modalFallback">Use Open to view the original repository file.</div>
-    </div>
-  </div>
-
+<div class="citation-static-no">012</div>
+<div>
+<div class="citation-ref-row"><span class="citation-ref">REFERENCE IN CITING WORK [141]</span><span class="citation-kind">Review article</span></div>
+<div class="citation-static-source">International Journal of Research and Innovation in Applied Science (IJRIAS), Volume XI Issue VI · June 2026</div>
+<h3>Advancing Solutions for Fractional Volterra-Fredholm Integro-Differential Equations: A Comprehensive Review of Recent Numerical Methods</h3>
+<div class="citation-static-authors">Ali Karim Lelo Alobaidi.</div>
+<div class="citation-what-label">WHAT THE CITING WORK USES IT FOR</div>
+<p>Cited as Reference [141]. The 2026 review places the hybrid stochastic-deterministic framework within its broader literature map of numerical methods for fractional Volterra–Fredholm integro-differential equations, alongside other recent applied-mathematics approaches.</p>
+<div class="citation-paper-panel">
+<div class="citation-paper-label">CITED PAPER / PEARL BIPIN RECORD</div>
+<div class="citation-paper-title">Hybrid Dynamical Systems: Unifying Memoryless Markov Chains with Memory-Based Integral Equations (Fredholm-Volterra Framework)</div>
+<div class="citation-paper-meta">Pearl Bipin Pulickal · 2025</div>
+<div class="citation-paper-actions"><a href="https://www.researchgate.net/publication/395536805_Hybrid_Dynamical_Systems_Unifying_Memoryless_Markov_Chains_with_Memory-Based_Integral_Equations_Fredholm-Volterra_Framework" rel="noopener noreferrer" target="_blank">↗ MY PAPER</a></div>
+</div>
+<details class="citation-details"><summary>Bibliographic / reference detail</summary><div class="citation-bib">Alobaidi, A. K. L. (2026). Cites Pulickal’s Hybrid Dynamical Systems as Reference [141].</div></details>
+</div>
+<div class="citation-static-actions">
+<a href="https://doi.org/10.51584/IJRIAS.2026.11060125" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
+<button class="copy-citation" data-copy="Alobaidi, A. K. L. (2026). Cites Pulickal’s Hybrid Dynamical Systems as Reference [141]." type="button">COPY REF</button>
+</div>
+</article></div><div aria-hidden="true" class="citation-register" id="citationRegister"></div>
+</section>
+<section class="media-hero" id="media">
+<div class="media-head">
+<div>
+<div class="eyebrow">THIRD-PARTY MEDIA &amp; PUBLIC RECEPTION</div>
+<h2 class="section-title">Media Reception Archive</h2>
+<p class="media-intro">A source-linked record of the 2026 Easter media cycle around Pearl Bipin Pulickal's Resurrection research. This section separates direct coverage from public discussion and downstream distribution. It records what external publications said about the research and, where explicitly stated, how they identified the author — including recurring descriptions as an engineer from NIT Goa and, in some cases, an engineer and mathematician.</p>
+</div>
+<div class="media-counter"><strong id="mediaCounter">0</strong><small>TRACKED MEDIA / RECEPTION RECORDS</small></div>
+</div>
+<div class="media-note"><strong>Scope rule:</strong> media coverage is not treated as academic validation. A journalist describing the author as an engineer or mathematician is recorded as third-party attribution; it is not presented as peer recognition by the mathematical or engineering research community. Likewise, repeated syndicated copies are not counted as independent reporting.</div>
+<div class="media-static-grid"><div class="media-subhead">Direct media coverage<span>individual publisher/article endpoints</span></div><article class="media-card">
+<span class="media-type">DIRECT COVERAGE</span>
+<div class="media-meta">Ancient Origins · 2026-04-05 · Analytical / religion &amp; history</div>
+<h3>Does A New Approach Prove the Resurrection of Jesus?</h3>
+<div class="media-summary">A long-form analytical article examines the historical, legal and philosophical architecture of the study, including the Minimal Facts approach, the empty tomb, reported appearances, James and Paul, and naturalistic alternatives.</div>
+<div class="media-attribution">The article identifies Pearl Bipin as an <strong>engineer and mathematician with NIT Goa</strong>.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.ancient-origins.net/news-history-archaeology/jesus-resurrection-evidence-00102659" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card">
+<span class="media-type">DIRECT COVERAGE</span>
+<div class="media-meta">Prince Ea · 2026-04-09 · Popular / creator-media</div>
+<h3>Study Suggests The Resurrection Of Jesus Could Be Historically Real</h3>
+<div class="media-summary">The article presents the study to a broad public audience, focusing especially on the medical argument against the swoon theory, the empty tomb and the later appearance claims.</div>
+<div class="media-attribution">The author is introduced as an <strong>engineer with the National Institute of Technology in Goa, India</strong>.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://princeea.com/the-resurrection-of-jesus-study/" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card">
+<span class="media-type">DIRECT COVERAGE</span>
+<div class="media-meta">Joe.ie · 2026-04 · News / Ireland</div>
+<h3>Study discovers “evidence” that Jesus rose from the dead after crucifixion</h3>
+<div class="media-summary">Irish news coverage summarizing the study’s test of resurrection claims, including the empty tomb, post-crucifixion appearances and historical references.</div>
+<div class="media-attribution">The article identifies Pearl Bipin as an <strong>engineer with the National Institute of Technology in Goa</strong>.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.joe.ie/news/study-discovers-evidence-that-jesus-rose-from-the-dead-after-crucifixion-868636" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card">
+<span class="media-type">DIRECT COVERAGE</span>
+<div class="media-meta">El Tiempo · 2026-04 · News / Colombia</div>
+<h3>Estudio sobre Jesús afirma que la resurrección es la opción más creíble…</h3>
+<div class="media-summary">Spanish-language coverage frames the investigation as a multidisciplinary analysis using historical evidence, forensic reasoning and Bayesian probability.</div>
+<div class="media-attribution">The article describes Pearl as an <strong>engineer from the National Institute of Technology in Goa, India</strong>.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.eltiempo.com/cultura/gente/estudio-sobre-jesus-afirma-que-la-resurreccion-es-la-opcion-mas-creible-tras-la-crucifixion-reabre-uno-de-los-mayores-misterios-de-su-muerte-3548036" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card">
+<span class="media-type">DIRECT COVERAGE</span>
+<div class="media-meta">La Nación · 2026-04 · News / Argentina</div>
+<h3>Un estudio científico… sobre la resurrección de Jesús</h3>
+<div class="media-summary">Argentine science coverage presents the research as an engineering-oriented attempt to apply structured historical, forensic and probabilistic reasoning to an ancient historical claim.</div>
+<div class="media-attribution">The report identifies Pearl as an <strong>engineer at NIT Goa</strong> and centers the technical framing of the investigation.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.lanacion.com.ar/ciencia/un-estudio-cientifico-comprobo-que-jesus-resucito-luego-de-tres-dias-muerto-nid07042026/" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card">
+<span class="media-type">DIRECT COVERAGE</span>
+<div class="media-meta">Evangélico Digital · 2026-04 · News / Spanish-language</div>
+<h3>Estudio científico secular concluye que la resurrección…</h3>
+<div class="media-summary">Coverage emphasizes that the study’s opening evidentiary frame is deliberately secular, drawing first on external historical sources before moving into medical and probabilistic arguments.</div>
+<div class="media-attribution">The author is identified as an <strong>engineer from NIT Goa</strong> working across historical, forensic and mathematical analysis.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.evangelicodigital.com/ciencia/41055/estudio-cientifico-secular-concluye-que-la-resurreccion-de-jesus-es-la-hipotesis-mas-creible" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card">
+<span class="media-type">DIRECT COVERAGE</span>
+<div class="media-meta">Daily Star · 2026-04 · News / United Kingdom</div>
+<h3>Jesus's Easter resurrection mystery intensifies…</h3>
+<div class="media-summary">UK Easter-season coverage focuses on the public intrigue generated by a technical analysis of the historical resurrection question and its challenge to familiar skeptical explanations.</div>
+<div class="media-attribution">The article frames the research through the author’s <strong>NIT Goa engineering background</strong>.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.dailystar.co.uk/news/latest-news/jesuss-easter-resurrection-mystery-intensifies-36970882" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card">
+<span class="media-type">DIRECT COVERAGE</span>
+<div class="media-meta">Daily Mail · 2026-04-04 · News / United Kingdom</div>
+<h3>Jesus's resurrection mystery intensifies as study reveals ‘evidence’ supporting he rose from the dead</h3>
+<div class="media-summary">Detailed coverage highlights the clinical and forensic portions of the study, including the medical interpretation of crucifixion trauma and its use against the swoon theory, alongside the historical case.</div>
+<div class="media-attribution">The story identifies the author through the <strong>engineer / NIT Goa</strong> framing used across the coverage cycle.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.dailymail.co.uk/sciencetech/article-15685299/jesus-resurrection-study-evidence.html" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card">
+<span class="media-type">DIRECT COVERAGE</span>
+<div class="media-meta">MSN Lifestyle · 2026-04 · Lifestyle / United States</div>
+<h3>Jesus’s resurrection mystery intensifies as study reveals evidence supporting He rose from dead</h3>
+<div class="media-summary">Lifestyle coverage broadens the story to a mass audience, summarizing the study’s historical evidence, medical arguments and challenges to naturalistic alternatives.</div>
+<div class="media-attribution">The reporting uses the recurring <strong>engineer / NIT Goa</strong> identity framing from the wider media cycle.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.msn.com/en-us/lifestyle/mind-and-soul/jesus-s-resurrection-mystery-intensifies-as-study-reveals-evidence-supporting-he-rose-from-dead/ar-AA209qZs?ocid=bb7hp" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card">
+<span class="media-type">DIRECT COVERAGE</span>
+<div class="media-meta">LADbible · 2026-04 · News / United Kingdom</div>
+<h3>Jesus study evidence: Rose from dead (Easter)</h3>
+<div class="media-summary">The outlet is recorded in the independent media-mentions dossier as covering the study during Easter. The archival locator is linked here because the exact live article endpoint was not stably recovered during verification.</div>
+<div class="media-attribution">Tracked as direct media coverage in the supplied record; <strong>direct live-page wording is not asserted until the article endpoint is re-verified</strong>.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.researchgate.net/publication/404374708_Recent_Media_Mentions_and_Academic_Citations_Media_Mentions" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card media-secondary">
+<span class="media-type">DIRECT / TRANSLATED COVERAGE</span>
+<div class="media-meta">Borsonline · 2026-04 · Secondary / Hungary</div>
+<h3>Hit vagy történelem? Itt a bizonyíték Jézus feltámadására</h3>
+<div class="media-summary">Hungarian-language coverage summarizes the study’s historical, medical and resurrection arguments and explicitly attributes the discussion to the research and to earlier LADbible reporting.</div>
+<div class="media-attribution">This is best treated as an additional <strong>coverage endpoint</strong>, but the article itself points back to LADbible, so it should not be counted as a wholly independent reporting origin.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.borsonline.hu/igaz-tortenetek/2026/04/jezus-feltamadasara-bizonyitekot-talaltak" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><div class="media-subhead">Public reception<span>audience discussion; not academic validation</span></div><article class="media-card media-discussion">
+<span class="media-type">PUBLIC DISCUSSION</span>
+<div class="media-meta">DC Urban Moms and Dads · 2026-04 · Public discussion / United States</div>
+<h3>Religion forum discussion of the resurrection study</h3>
+<div class="media-summary">A public discussion thread reproduces the story and contains extended reader debate over the historical sources, Bayesian reasoning, miracle priors and the credibility of the argument.</div>
+<div class="media-attribution">The thread repeats the <strong>engineer / NIT Goa</strong> description and shows independent audience reaction. This is reception evidence, not academic validation.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.dcurbanmom.com/jforum/posts/list/1321654.page" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><div class="media-subhead">Distribution &amp; archival traces<span>propagation / locator records; not additional independent reporting</span></div><article class="media-card media-distribution">
+<span class="media-type">DISTRIBUTION TRACE</span>
+<div class="media-meta">Grabien / The Wire · 2026-04 · Aggregation / distribution</div>
+<h3>Daily Mail story carried downstream</h3>
+<div class="media-summary">A downstream endpoint carrying the Daily Mail story. Useful for documenting propagation, but not counted as an additional independent reporting outlet.</div>
+<div class="media-attribution">Marked explicitly as <strong>distribution</strong>, not independent reporting.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://news.grabien.com/thewire/jesuss-resurrection-mystery-intensifies-as-study-reveals-evidence-supp" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card media-distribution">
+<span class="media-type">DISTRIBUTION TRACE</span>
+<div class="media-meta">NewsLocker · 2026-04 · Aggregation / distribution</div>
+<h3>Daily Mail article indexed in downstream feeds</h3>
+<div class="media-summary">NewsLocker search results preserve the Daily Mail article as a downstream feed item dated 4 April 2026.</div>
+<div class="media-attribution">The page identifies the underlying publisher as <strong>dailymail.co.uk</strong>; this is a propagation trace, not an independent outlet.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://www.newslocker.com/en-uk/news/sci_tech/nasa-announces-change-to-its-moon-landing-plans/" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article><article class="media-card media-distribution">
+<span class="media-type">ARCHIVAL REGISTER</span>
+<div class="media-meta">PhilArchive Media Dossier · 2026-06 · Primary archival document</div>
+<h3>Archival Dossier of Global Media Coverage and Unsolicited Independent Virality</h3>
+<div class="media-summary">The consolidated dossier preserves the original seven-outlet register and provides the underlying URLs for the archival media cycle. It is an author-maintained dossier and therefore functions as a locator/index rather than independent confirmation of every claim it makes.</div>
+<div class="media-attribution">Use as an <strong>archival index</strong>. The site separates its own assertions about virality from independently verifiable article records.</div>
+<div class="media-actions"><a class="record-btn primary" href="https://philarchive.org/archive/PULADO-2" rel="noopener noreferrer" target="_blank">↗ OPEN SOURCE</a></div>
+</article></div><div aria-hidden="true" class="media-register" id="mediaRegister"></div>
+</section>
+<div class="section-head">
+<h2 class="section-title">Evidence Ledger</h2>
+<div class="section-note">Institutional records · recommendations · documentary evidence · citation entries</div>
+</div>
+<div class="records" id="records">
+<article class="card" style="animation-delay:0ms">
+<div class="meta"><span class="badge id">REC-001</span><span class="badge">TIER II</span><span class="badge supported">SUPPORTED</span><span class="badge">Recommendation</span></div>
+<h3>Recommendation — Dr. Prakash Mehra</h3>
+<p class="summary">A public recommendation record attributes a recommendation for Pearl Bipin to Dr. Prakash Mehra, Scientist / Senior Principal Scientist at CSIR-NIO.</p>
+<div class="fields">
+<div class="field"><div class="label">Source</div><div class="value">Publicly archived recommendation</div></div>
+<div class="field"><div class="label">Date</div><div class="value">2024-06-08</div></div>
+<div class="field"><div class="label">Source type</div><div class="value">Third-party recommendation record</div></div>
+<div class="field"><div class="label">Scope</div><div class="value">This record is evidence that the recommendation exists in the archive. It should be paired with the original recommendation PDF in a later build.</div></div>
+</div>
+<div class="actions">
+<a class="record-btn primary" href="https://pearlbipinprofile.neocities.org/" rel="noopener noreferrer" target="_blank">↗ SOURCE</a>
+</div>
+</article>
+<article class="card" style="animation-delay:35ms">
+<div class="meta"><span class="badge id">REC-002</span><span class="badge">TIER II</span><span class="badge supported">SUPPORTED</span><span class="badge">Recommendation</span></div>
+<h3>Recommendation — Dixit Nahar</h3>
+<p class="summary">A public archive preserves a recommendation attributed to Dixit Nahar, describing Pearl's work during the Reliance Jio internship.</p>
+<div class="fields">
+<div class="field"><div class="label">Source</div><div class="value">Publicly archived recommendation</div></div>
+<div class="field"><div class="label">Date</div><div class="value">2022-08-03</div></div>
+<div class="field"><div class="label">Source type</div><div class="value">Third-party recommendation record</div></div>
+<div class="field"><div class="label">Scope</div><div class="value">The recommended future ledger should attach a direct PDF or original profile capture rather than relying only on a secondary archive.</div></div>
+</div>
+<div class="actions">
+<a class="record-btn primary" href="https://www.researchgate.net/publication/399497316_External_Validation_Recommendations_and_Citations_of_Pearl_Bipin" rel="noopener noreferrer" target="_blank">↗ SOURCE</a>
+</div>
+</article>
+</div>
+</section>
+</main>
+<section class="methodology-section" id="methodology">
+<div class="wrap">
+<div class="eyebrow">METHODOLOGY</div>
+<h2 class="section-title">Claim scope is explicit.</h2>
+<p>Each record is linked to the narrow proposition it supports. A citation is recorded as evidence that a citing work references the named preprint; it is not presented as a proof of correctness of the cited research.</p>
+</div>
+</section>
+<footer>
+<div class="wrap">
+<span class="footer-mark">PEARL BIPIN VERIFICATION</span>
+<span>Prototype 0.5 · 12 citation records · 15 media/reception records · 20 local document records · self-contained HTML archive</span>
+</div>
+</footer>
+<div aria-hidden="true" class="modal" id="modal">
+<div class="modal-panel">
+<div class="modal-head">
+<div class="modal-title"><div class="modal-id" id="modalId"></div><h2 id="modalTitle">Evidence document</h2></div>
+<div class="modal-tools"><a class="open-tab" href="https://pearlbipinverifications.vercel.app/#" id="modalOpen" rel="noopener noreferrer" target="_blank">↗ OPEN IN NEW TAB</a><a class="download" download="" href="https://pearlbipinverifications.vercel.app/#" id="modalDownload">↓ DOWNLOAD</a><button class="close" id="modalClose" type="button">×</button></div>
+</div>
+<div class="viewer-wrap">
+<iframe class="pdf-frame" id="pdfFrame" src="./faulty_files/saved_resource.html" title="Evidence PDF preview"></iframe>
+<img alt="Evidence image preview" class="image-frame" id="imageFrame"/>
+</div>
+<div class="modal-fallback" id="modalFallback">Use Open to view the original repository file.</div>
+</div>
+</div>
 <script>
 const MEDIA = [
   {id:'MED-001',kind:'DIRECT COVERAGE',outlet:'Ancient Origins',title:'Does A New Approach Prove the Resurrection of Jesus?',date:'2026-04-05',url:'https://www.ancient-origins.net/news-history-archaeology/jesus-resurrection-evidence-00102659',summary:'A long-form analytical article examines the historical, legal and philosophical architecture of the study, including the Minimal Facts approach, the empty tomb, reported appearances, James and Paul, and naturalistic alternatives.',attribution:'The article identifies Pearl Bipin as an <strong>engineer and mathematician with NIT Goa</strong>.',tone:'Analytical / religion & history'},
@@ -1218,9 +1319,8 @@ document.addEventListener("keydown",e=>{
   if(e.key==="Escape")closeModal();
   if((e.key==="/" && document.activeElement.tagName!=="INPUT")||(e.ctrlKey&&e.key.toLowerCase()==="k")){e.preventDefault();search.focus();}
 });
-seedCategory(); updateStats(); initCitationControls(); renderCitationRegister(); renderMedia(); renderDocumentArchive();
+seedCategory(); updateStats(); initCitationControls(); renderCitationRegister(); renderMedia(); document.querySelectorAll('.document-preview').forEach(btn=>btn.addEventListener('click',()=>openRecord(btn.dataset.preview)));
 document.querySelectorAll(".education-preview").forEach(btn=>btn.addEventListener("click",()=>openRecord(btn.dataset.preview)));
 apply(); startDisplay(); clock(); setInterval(clock,1000);
 </script>
-</body>
-</html>
+</body></html>
