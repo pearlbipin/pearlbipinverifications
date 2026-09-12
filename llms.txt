@@ -1,0 +1,27 @@
+# Pearl Bipin Verification
+
+This site is a public verification index concerning Pearl Bipin Pulickal.
+
+## Purpose
+
+The site organizes publicly inspectable documentary records, institutional references, independent scholarly citations, recommendations, media records, and supporting contextual evidence. It is an index to underlying evidence, not a replacement for the original sources.
+
+## Primary sections
+
+- /#documents — Documentary Record Archive
+- /#misc-evidence — Miscellaneous / supporting external evidence
+- /#ledger — Evidence Ledger and filters
+- /#citations — Citation Register
+- /#media — Media and Public Reception Archive
+- /#methodology — Verification Methodology
+
+## Important distinctions
+
+- Primary / institutional records should be read as documentary evidence for the specific proposition described in each entry.
+- Independent citations document that external works cite named Pearl Bipin records; a citation should not automatically be interpreted as endorsement or peer review.
+- Media and public-reception records document coverage, discussion, distribution, or archival traces according to the category shown.
+- Author-maintained archival dossiers are labeled as archival indexes rather than independent confirmation.
+
+## Canonical site
+
+https://pearlbipinverifications.vercel.app/
