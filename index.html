@@ -53,7 +53,6 @@
 }
 </script>
 
-<link href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23000'/%3E%3Ctext x='50' y='63' text-anchor='middle' font-size='52' fill='%23d4af37'%3EP%3C/text%3E%3C/svg%3E" rel="icon"/>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
     :root{
@@ -623,7 +622,7 @@ footer{font-size:.64rem}footer .wrap{align-items:flex-start}
 <button class="nav-link clear" id="clearBtn" type="button">CLEAR</button>
 </div>
 <div class="control-status">
-<span><strong id="count">2</strong> records visible · <span id="filterLabel">filtered evidence</span></span>
+<span aria-live="polite"><strong id="count">63</strong> records visible · <span id="filterLabel">all evidence</span></span>
 <span>Search / <code>/</code> or <code>Ctrl</code> + <code>K</code></span>
 </div>
 </div>
@@ -632,8 +631,8 @@ footer{font-size:.64rem}footer .wrap{align-items:flex-start}
 <div class="stats">
 <div class="stat highlight"><div class="k">Independent citations</div><div class="v" id="statCitations">12</div><div class="s">Directly linked citing works</div></div>
 <div class="stat highlight"><div class="k">Media records</div><div class="v" id="statMedia">15</div><div class="s">Direct coverage + reception</div></div>
-<div class="stat"><div class="k">Total ledger records</div><div class="v" id="statTotal">53</div><div class="s">Across the current evidence ledger</div></div>
-<div class="stat"><div class="k">Tier I</div><div class="v" id="statTier1">24</div><div class="s">Primary / institutional evidence</div></div>
+<div class="stat"><div class="k">Total ledger records</div><div class="v" id="statTotal">63</div><div class="s">Across the current evidence ledger</div></div>
+<div class="stat"><div class="k">Tier I</div><div class="v" id="statTier1">29</div><div class="s">Primary / institutional evidence</div></div>
 </div>
 <section class="citation-hero" id="citations">
 <div class="citation-head">
@@ -649,7 +648,7 @@ footer{font-size:.64rem}footer .wrap{align-items:flex-start}
 </div>
 <div class="citation-counter"><span>12</span><small>CITATION RECORDS</small><em>6 cited papers</em></div>
 </div>
-<div aria-hidden="true" class="citation-register" id="citationRegister"></div>
+
 <div class="citation-static-grid"><article class="citation-static-card" data-paper="Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base" data-search="nanotechnology meets quantum computing: advancing quantum bits (qubits) and devices for next generation computing talha nadeem, tariq rafique, sedra moulay brahim, et al. nanotechnology perceptions cited as reference [50]. the paper places the ternary-logic work within its discussion and statistical analysis using anova and f-statistics, where the cited work forms part of the literature base around nanotechnology and quantum-computing perceptions. ternary logic gates: advancing computing with -1, 0, 1 base [50]">
 <div class="citation-static-no">001</div>
 <div>
@@ -902,7 +901,7 @@ footer{font-size:.64rem}footer .wrap{align-items:flex-start}
 <a href="https://doi.org/10.51584/IJRIAS.2026.11060125" rel="noopener noreferrer" target="_blank">↗ CITING WORK</a>
 <button class="copy-citation" data-copy="Alobaidi, A. K. L. (2026). Cites Pulickal’s Hybrid Dynamical Systems as Reference [141]." type="button">COPY REF</button>
 </div>
-</article></div><div aria-hidden="true" class="citation-register" id="citationRegister"></div>
+</article></div>
 </section>
 <section class="media-hero" id="media">
 <div class="media-head">
@@ -1070,11 +1069,11 @@ footer{font-size:.64rem}footer .wrap{align-items:flex-start}
 <span>Prototype 0.5 · 12 citation records · 15 media/reception records · 41 local document records · 2 supporting miscellaneous records · self-contained HTML archive</span>
 </div>
 </footer>
-<div aria-hidden="true" class="modal" id="modal">
+<div aria-hidden="true" aria-labelledby="modalTitle" aria-modal="true" class="modal" id="modal" role="dialog">
 <div class="modal-panel">
 <div class="modal-head">
 <div class="modal-title"><div class="modal-id" id="modalId"></div><h2 id="modalTitle">Evidence document</h2></div>
-<div class="modal-tools"><a class="open-tab" href="https://pearlbipinverifications.vercel.app/#" id="modalOpen" rel="noopener noreferrer" target="_blank">↗ OPEN IN NEW TAB</a><a class="download" download="" href="https://pearlbipinverifications.vercel.app/#" id="modalDownload">↓ DOWNLOAD</a><button class="close" id="modalClose" type="button">×</button></div>
+<div class="modal-tools"><a class="open-tab" href="https://pearlbipinverifications.vercel.app/#" id="modalOpen" rel="noopener noreferrer" target="_blank">↗ OPEN IN NEW TAB</a><a class="download" download="" href="https://pearlbipinverifications.vercel.app/#" id="modalDownload">↓ DOWNLOAD</a><button aria-label="Close evidence preview" class="close" id="modalClose" type="button">×</button></div>
 </div>
 <div class="viewer-wrap">
 <iframe class="pdf-frame" id="pdfFrame" src="about:blank" title="Evidence PDF preview"></iframe>
@@ -1150,8 +1149,8 @@ const EVIDENCE = [
     source:"Publicly archived recommendation",
     date:"2024-06-08",
     sourceType:"Third-party recommendation record",
-    url:"https://pearlbipinprofile.neocities.org/",
-    note:"This record is evidence that the recommendation exists in the archive. It should be paired with the original recommendation PDF in a later build."
+    url:"https://www.researchgate.net/publication/399497316_External_Validation_Recommendations_and_Citations_of_Pearl_Bipin",
+    note:"The recommendation is documented on pages 24–25 of the ResearchGate-linked document."
   },
   {
     id:"REC-002", tier:"II", status:"supported", category:"Recommendation",
@@ -1161,7 +1160,7 @@ const EVIDENCE = [
     date:"2022-08-03",
     sourceType:"Third-party recommendation record",
     url:"https://www.researchgate.net/publication/399497316_External_Validation_Recommendations_and_Citations_of_Pearl_Bipin",
-    note:"The recommended future ledger should attach a direct PDF or original profile capture rather than relying only on a secondary archive."
+    note:"The recommendation is documented on page 30 of the ResearchGate-linked document."
   },
   {"id":"CIT-001","tier":"II","status":"verified","category":"Citations","title":"Nanotechnology Meets Quantum Computing: Advancing Quantum Bits (Qubits) and Devices for Next Generation Computing","claim":"Cites Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base as Reference [50].","source":"Nanotechnology Perceptions","date":"December 1, 2024","sourceType":"Journal article","url":"https://doi.org/10.62441/nano-ntp.vi.3463","note":"Cited as Reference [50]. The paper places the ternary-logic work within its discussion and statistical analysis using ANOVA and F-statistics, where the cited work forms part of the literature base around nanotechnology and quantum-computing perceptions.","parent":"Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base","citingAuthors":"Talha Nadeem, Tariq Rafique, Sedra Moulay Brahim, et al.","referenceNumber":"[50]","paperUrl":"https://www.researchgate.net/publication/381311830_Ternary_Logic_Gates_Advancing_Computing_with_-1_0_1_Base","paperDoi":"https://doi.org/10.13140/RG.2.2.21765.77281","paperAuthors":"Yash Diniz; Pearl Bipin Pulickal; Trilochan Panigrahi","paperDate":"June 2024","paperBibliography":"Pulickal, P. B., Diniz, Y. J., & Panigrahi, T. (2024). Ternary Logic Gates: Advancing Computing with −1, 0, 1 Base."},
   {"id":"CIT-002","tier":"II","status":"verified","category":"Citations","title":"Memristor Emulator-Based Ternary Logic Gates for AI and Neuromorphic Hardware","claim":"Cites Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base as Reference [12].","source":"IEEE International Conference on Intelligent Signal Processing and Effective Communication Technologies (INSPECT 2025)","date":"November 2025","sourceType":"IEEE conference paper","url":"https://doi.org/10.1109/INSPECT67393.2025.11350313","note":"Cited as Reference [12]. The citing paper uses the ternary-logic work as part of the conceptual foundation for ternary logic implemented in hardware, with an explicit application context in neuromorphic hardware, AI, and ternary neural circuits.","parent":"Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base","citingAuthors":"G. Mandal, M. Ghosh, and P. Mondal.","referenceNumber":"[12]","paperUrl":"https://www.researchgate.net/publication/381311830_Ternary_Logic_Gates_Advancing_Computing_with_-1_0_1_Base","paperDoi":"https://doi.org/10.13140/RG.2.2.21765.77281","paperAuthors":"Yash Diniz; Pearl Bipin Pulickal; Trilochan Panigrahi","paperDate":"June 2024","paperBibliography":"Mandal, G.; Ghosh, M.; Mondal, P. Cites the Pulickal et al. ternary-logic preprint as Reference [12]."},
@@ -1650,12 +1649,6 @@ function initCitationControls(){
   }));
 }
 
-function renderCitationRegister(){
-  const cites=EVIDENCE.filter(e=>e.category==="Citations");
-  const order=["Ternary Logic Gates: Advancing Computing with -1, 0, 1 Base","Anomaly Detection Algorithm for Elliptical Clusters Based On Maximum Cluster Diameter Criteria","Quantum Limits on Moore's Law in Electronics","Cognitive Offloading and Work Delegation: A Strategy for Intellectual Efficiency and Resilience via Artificial Intelligence","An Elegant Expression for π in Terms of Complex Logarithms","Hybrid Dynamical Systems: Unifying Memoryless Markov Chains with Memory-Based Integral Equations (Fredholm-Volterra Framework)"];
-  const groups=order.map(parent=>({parent,items:cites.filter(c=>c.parent===parent)})).filter(g=>g.items.length);
-  $("#citationRegister").innerHTML=groups.map(g=>`<div class="citation-group"><div class="citation-group-title">${g.parent}<span>${g.items.length} CITATION${g.items.length===1?'':'S'}</span></div>${g.items.map(e=>`<article class="citation-item"><div class="citation-no">${e.id.replace('CIT-','')}</div><div><h3>${e.title}${e.language?`<span class="lang-badge">${e.language}</span>`:''}</h3><div class="citation-meta">${e.citingAuthors} · ${e.source} · ${e.date}</div><div class="citation-context">${e.note}</div></div><div class="citation-links"><a href="${e.url}" target="_blank" rel="noopener noreferrer">↗ SOURCE</a>${e.doi?`<a href="${e.doi}" target="_blank" rel="noopener noreferrer">↗ DOI</a>`:''}</div></article>`).join('')}</div>`).join('');
-}
 function statusBadge(s){
   const labels={verified:"VERIFIED",supported:"SUPPORTED",context:"CONTEXTUAL",correction:"CORRECTION"};
   return `<span class="badge ${s}">${labels[s]||s}</span>`;
@@ -1695,8 +1688,10 @@ function apply(){
   });
   render(out);
 }
+let lastFocused=null;
 function openRecord(id){
   const e=EVIDENCE.find(x=>x.id===id); if(!e)return;
+  lastFocused=document.activeElement;
   modalId.textContent=e.id+" · TIER "+e.tier+" · "+e.status.toUpperCase();
   modalTitle.textContent=e.title;
   const target=e.file||e.url;
@@ -1740,29 +1735,56 @@ function openRecord(id){
   }
   modal.classList.add("open"); modal.setAttribute("aria-hidden","false");
   document.body.style.overflow='hidden';
+  document.getElementById("modalClose").focus();
 }
-function closeModal(){modal.classList.remove("open");modal.setAttribute("aria-hidden","true");document.getElementById('pdfFrame').src='about:blank';document.getElementById('imageFrame').removeAttribute('src');document.getElementById('imageFrame').style.display='none';document.getElementById('pdfFrame').style.display='block';document.body.style.overflow='';}
-function seedCategory(){[...new Set(EVIDENCE.map(e=>e.category))].sort().forEach(c=>{category.insertAdjacentHTML("beforeend",`<option>${c}</option>`)});}
+function closeModal(){
+  modal.classList.remove("open"); modal.setAttribute("aria-hidden","true");
+  document.getElementById('pdfFrame').src='about:blank';
+  document.getElementById('imageFrame').removeAttribute('src');
+  document.getElementById('imageFrame').style.display='none';
+  document.getElementById('pdfFrame').style.display='block';
+  document.body.style.overflow='';
+  if(lastFocused && typeof lastFocused.focus==="function")lastFocused.focus();
+  lastFocused=null;
+}
+function seedCategory(){
+  const existing=new Set([...category.options].map(o=>o.value));
+  [...new Set(EVIDENCE.map(e=>e.category))].sort().forEach(c=>{
+    if(existing.has(c))return;
+    const option=document.createElement("option"); option.value=c; option.textContent=c; category.appendChild(option);
+  });
+}
 function updateStats(){
   $("#statTotal").textContent=EVIDENCE.length;
   $("#statTier1").textContent=EVIDENCE.filter(e=>e.tier==="I").length;
-  $("#statTier2").textContent=EVIDENCE.filter(e=>e.tier==="II").length;
-  $("#statCitations").textContent=EVIDENCE.filter(e=>e.category==="Citations").length;
+  $("#statCitations").textContent=document.querySelectorAll(".citation-static-card").length;
   $("#statMedia").textContent=MEDIA.length;
 }
 function clock(){const d=new Date();$("#clock").textContent=d.toLocaleTimeString([], {hour12:false});}
 [search].forEach(el=>el.addEventListener("input",apply)); [tier,status,category].forEach(el=>el.addEventListener("change",apply));
 $("#clearBtn").addEventListener("click",()=>{search.value="";tier.value="";status.value="";category.value="";apply()});
 $("#resetBtn").addEventListener("click",()=>{search.value="";tier.value="";status.value="";category.value="";apply();window.scrollTo({top:0,behavior:"smooth"})});
-document.getElementById("latestBtn").addEventListener("click",()=>{window.location.hash="ledger";search.value="";tier.value="";status.value="";category.value="";render([...EVIDENCE].sort((a,b)=>String(b.date).localeCompare(String(a.date))));window.scrollTo({top:document.querySelector("#ledger").offsetTop-50,behavior:"smooth"})});
+function dateScore(value){
+  const s=String(value||"");
+  if(/current|present|ongoing|in progress/i.test(s))return Number.POSITIVE_INFINITY;
+  const matches=[...s.matchAll(/(\d{4})(?:-(\d{2}))?(?:-(\d{2}))?/g)];
+  if(!matches.length)return 0;
+  const last=matches[matches.length-1];
+  return Number(last[1])*10000+Number(last[2]||12)*100+Number(last[3]||31);
+}
+function sortLatest(list){return [...list].sort((a,b)=>dateScore(b.date)-dateScore(a.date)||String(b.id).localeCompare(String(a.id)));}
+document.getElementById("latestBtn").addEventListener("click",()=>{window.location.hash="ledger";search.value="";tier.value="";status.value="";category.value="";render(sortLatest(EVIDENCE));window.scrollTo({top:document.querySelector("#ledger").offsetTop-50,behavior:"smooth"})});
 $("#tierBtn").addEventListener("click",()=>{tier.value="I";search.value="";status.value="";category.value="";apply();window.scrollTo({top:document.querySelector("#ledger").offsetTop-50,behavior:"smooth"})});
 $("#modalClose").addEventListener("click",closeModal);
 modal.addEventListener("click",e=>{if(e.target===modal)closeModal()});
 document.addEventListener("keydown",e=>{
-  if(e.key==="Escape")closeModal();
-  if((e.key==="/" && document.activeElement.tagName!=="INPUT")||(e.ctrlKey&&e.key.toLowerCase()==="k")){e.preventDefault();search.focus();}
+  if(e.key==="Escape"){closeModal();return;}
+  const active=document.activeElement;
+  const isEditable=active && (active.isContentEditable || /^(INPUT|TEXTAREA|SELECT|BUTTON)$/.test(active.tagName));
+  if(!isEditable && e.key==="/"){e.preventDefault();search.focus();return;}
+  if((e.ctrlKey||e.metaKey) && e.key.toLowerCase()==="k"){e.preventDefault();search.focus();}
 });
-seedCategory(); updateStats(); initCitationControls(); renderCitationRegister(); renderMedia(); document.querySelectorAll('.document-preview').forEach(btn=>btn.addEventListener('click',()=>openRecord(btn.dataset.preview)));
+seedCategory(); updateStats(); initCitationControls(); renderMedia(); document.querySelectorAll('.document-preview').forEach(btn=>btn.addEventListener('click',()=>openRecord(btn.dataset.preview)));
 document.querySelectorAll(".education-preview").forEach(btn=>btn.addEventListener("click",()=>openRecord(btn.dataset.preview)));
 apply(); clock(); setInterval(clock,1000);
 </script>
