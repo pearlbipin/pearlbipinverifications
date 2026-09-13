@@ -175,6 +175,85 @@ footer{font-size:.64rem}footer .wrap{align-items:flex-start}
 @media(max-width:640px){header{padding:52px 0 42px}.verification-principles{gap:8px}.stats{grid-template-columns:1fr 1fr}.controls-top{grid-template-columns:1fr}.document-register{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){body::after{display:none}}
 
+
+    /* --- Responsive hardening layer: containment, touch safety, and small-screen composition --- */
+    html{
+      width:100%;
+      max-width:100%;
+      background:var(--bg);
+      overflow-x:hidden;
+      overscroll-behavior-x:none;
+    }
+    body{
+      width:100%;
+      max-width:100%;
+      min-width:0;
+      overflow-x:hidden;
+      overscroll-behavior-x:none;
+      touch-action:pan-y;
+    }
+    *,*::before,*::after{min-width:0}
+    img,iframe,video,svg,canvas{max-width:100%}
+    .wrap,.topbar-inner,.nav-inner,.controls,.controls-top,.records,
+    .quick-access,.document-head,.misc-head,.citation-head,.media-head,
+    .citation-static-card,.document-card,.misc-card,.media-card,.card,
+    .modal-panel,.modal-head,.modal-title,.modal-tools,.fields,.actions,
+    .citation-tools,.citation-ref-row,.citation-static-actions,.media-actions,
+    .misc-actions,.document-actions,.education-actions,footer .wrap{
+      min-width:0;
+      max-width:100%;
+    }
+    .controls-top>* ,.citation-tools>*{min-width:0}
+    .document-badge,.badge,.nav-link,.record-btn,.citation-ref,.citation-kind,
+    .media-type,.field .value,.document-meta,.document-summary,.document-evidence,
+    .misc-meta,.misc-summary,.misc-details,.media-meta,.media-summary,
+    .media-attribution,.citation-static-source,.citation-static-authors,
+    .citation-static-card h3,.citation-paper-title,.modal-title h2{
+      overflow-wrap:anywhere;
+      word-break:normal;
+    }
+    .nav-links,.actions,.record-btn,.modal-tools,.citation-static-actions,
+    .media-actions,.misc-actions,.document-actions,.education-actions{
+      min-width:0;
+    }
+    footer .wrap{flex-wrap:wrap}
+
+    @media(max-width:900px){
+      .citation-tools{grid-template-columns:1fr;max-width:100%}
+      .citation-tool-count{white-space:normal}
+    }
+
+    @media(max-width:760px){
+      .topbar-inner{flex-wrap:wrap;row-gap:5px;padding:7px 0}
+      .topbar-right{margin-left:auto}
+      .citation-static-card{overflow:hidden}
+      .modal-head{flex-wrap:wrap;align-items:flex-start}
+      .modal-title{flex:1 1 180px}
+      .modal-tools{flex:1 1 100%;width:100%;justify-content:flex-end;flex-wrap:wrap}
+      footer .wrap{flex-direction:column;align-items:flex-start;gap:8px}
+    }
+
+    @media(max-width:640px){
+      .wrap{width:min(calc(100% - 32px),var(--max));}
+      .nav-links{width:100%;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+      .nav-link{width:100%;text-align:center}
+      .quick-card,.document-card,.misc-card,.media-card,.card{overflow:hidden}
+      .document-actions,.actions{width:100%;}
+      .document-actions .record-btn,.actions .record-btn{flex:1 1 auto;min-width:0}
+      .modal{padding:6px}
+      .modal-panel{width:100%;max-width:100%;height:96vh}
+      .modal-tools{justify-content:flex-start}
+      .open-tab,.download,.close{max-width:100%}
+    }
+
+    @media(max-width:360px){
+      .nav-links{grid-template-columns:1fr}
+      .topbar-left{flex:1 1 100%}
+      .topbar-right{margin-left:0}
+      .modal-tools{gap:5px}
+      .open-tab,.download{padding-left:8px;padding-right:8px}
+    }
+
 </style>
 </head>
 <body>
